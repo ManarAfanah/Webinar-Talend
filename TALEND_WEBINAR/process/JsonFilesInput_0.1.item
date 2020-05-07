@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="JsonFile_FilePath" prompt="JsonFile_FilePath?" promptNeeded="false" repositoryContextId="_1MvzMJAKEeqjDLCEmlx7SA" type="id_File" value="C:/Users/User/Desktop/JsonFiles/generated1.json"/>
-    <contextParameter comment="" name="JsonFile_Encoding" prompt="JsonFile_Encoding?" promptNeeded="false" repositoryContextId="_1MvzMJAKEeqjDLCEmlx7SA" type="id_String" value="UTF-8"/>
-    <contextParameter comment="" name="JsonFile_XPathQuery" prompt="JsonFile_XPathQuery?" promptNeeded="false" repositoryContextId="_1MvzMJAKEeqjDLCEmlx7SA" type="id_String" value="$[*]"/>
+    <contextParameter comment="" name="DirectoryLocation" prompt="DirectoryLocation?" promptNeeded="false" type="id_String" value="&quot;C:/Users/User/Desktop/JsonFiles&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -46,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Q9Ubj+YJUAKgp36G47OiEA72Cd/oocc6UXiQl1T0"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:3gH+l3DXWHdaPfYv4EqVzbypNjCNRPw/hPyp+m6i"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -81,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Svu9sxhNzUdowG/1ddN8MWEgeCpEuG5h/IGsIfz3"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Y56ipGwMmqRUpJ/X4XGRQs9fVvhNQmSdzWFCvq+t"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,7 +116,7 @@
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Users/User/Desktop/JsonFiles&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context. context.DirectoryLocation"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -420,13 +418,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dbc7f745-3077-4de3-b768-a753132ed6bb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Wnmp+Cvt6yJggjxUzPLwfrcM8384nkanBAbESETO7XKb26WNhKBgZnPNWRh1ANXofurglsiXRMpM&#13;
-ZE+UOlyG9g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_12dfb9f4-f68d-47a5-af52-dd62164354ca"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>A3hwLXiAu6fCZaIWuSdpvV7U2g/Aicmv2sqBUVzOWW1bJ45ap2a2EVWVCXq5tT54tFpIj3BUliqI&#13;
-dYRVxABBdA==</DigestValue></Reference></SignedInfo><SignatureValue>OrWuAaoVlbHdE0hQmA85EtIwaY0aVHhig+vOW4rz6L/JWCm4KshBCKc84wr1Yo+vQK1tU8PwzX/g&#13;
-Hd3CKL4lFDm9oT+O+t1z/tpawDU/3MtwyZfca/saIsU+0JwgGM9q+tu4YIm8im9HufNUy9GCC+FQ&#13;
-RCJm3weNPYpn0QaQFbz7heydzOGhBiqAjg60l6iRFFfyx46Wv9MNQjIIoZA4PnR0Nv3tRNfnRGJb&#13;
-5NfQi1P4FRlhlbsP3hIYtbuB2iuM243rKEc588RlpvI5ev9KBmSzUYrpNla/mSCZ7s6vps5iQLj5&#13;
-IC7zZHKgEt+CadpidhYVx5xIgTjfb+2/Jr8J3A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_46cddee8-4788-403d-85d8-5b79455179a5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>m/O2PqnjigJhDuC4lpayw25VuYRWUZwN9BY8gA6G3XeEYGXmiayIT4iatmf2PSHyGnPgHN3Rtuz5&#13;
+BUK9taK4uQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3299da41-8553-46df-840c-482b5ee036c8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Yz3Ariu/E0NLhuNDk04PSVEK2TSUx88xtSt4laSJJPqzAQ0k/l7INyRrl3KH1PNknr7cjSsUffl4&#13;
+jCNM5cmNWg==</DigestValue></Reference></SignedInfo><SignatureValue>a1DpKRTtgrcZH51VHLCztHJ1KYLWQs+XTsxQmAaaTtcL2m4RoztlMxYOj8ijehnRJSPNnt5BtcPM&#13;
+WytiE30gOpEnN7Hgdm6GfNrlXPPqA1WLBs1TfFpkKZRapB6xKlY4TBTytliMMuCaODZyrpbEc1VA&#13;
+Kuoq859f8A/EcQXwFVSi0I5xxIzzB4tEYfeF6lPWug7NqucSInyIoECznPrM7A7pJSNt9XN4RNvo&#13;
+bPkguiij+GAaXyWSkWahRv+iHli2V/KNKDmoAcj9kxWQfA9UHbAmyPjJl6AUXgKHFVb5oBmUQV0g&#13;
+7AuQr+RLbRI5+4Bx59SQ2kLHCs/Qw9VuB5Hp8g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -448,4 +446,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_12dfb9f4-f68d-47a5-af52-dd62164354ca" Target="#_dbc7f745-3077-4de3-b768-a753132ed6bb"><Timestamp>2020-05-07 02:39:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3299da41-8553-46df-840c-482b5ee036c8" Target="#_46cddee8-4788-403d-85d8-5b79455179a5"><Timestamp>2020-05-07 02:45:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
