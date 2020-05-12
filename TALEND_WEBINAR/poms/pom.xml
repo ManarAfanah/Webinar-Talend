@@ -292,6 +292,7 @@
     <module>jobs/process/TUTO78/correct_claim_dates_0.1</module>
     <module>jobs/process/TUTO75/load_partsmaster_data_0.1</module>
     <module>jobs/process/standardization_examples/address/a1_parisstreetindexcreation_0.1</module>
+    <module>jobs/process/etlsnowflakedemo_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
