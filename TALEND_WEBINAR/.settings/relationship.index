@@ -6081,10 +6081,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_KQzQQBBxEeGJovAMsLgpoQ",
-    "version" : "0.1",
-    "type" : "services"
   } ]
 }, {
   "baseItem" : {
