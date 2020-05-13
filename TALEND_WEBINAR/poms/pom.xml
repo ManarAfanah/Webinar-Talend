@@ -295,6 +295,7 @@
     <module>jobs/process/etlsnowflakedemo_0.1</module>
     <module>jobs/process/eltsnowflakedemo_0.1</module>
     <module>jobs/process/uploadbigfileintos3_0.1</module>
+    <module>jobs/process/loadbigfileintosnowflake_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
