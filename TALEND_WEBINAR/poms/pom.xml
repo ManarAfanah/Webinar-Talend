@@ -300,10 +300,8 @@
     <module>jobs/process/loadusersintosnowflakeusingrow_0.1</module>
     <module>jobs/process/ods_dwh_master_orchestrator_0.1</module>
     <module>jobs/process/ADMIN/file_log_update_0.1</module>
-    <module>jobs/process/EN_ODS/en_ods_copy_0.1</module>
     <module>jobs/process/ADMIN/file_log_update_dwh_0.1</module>
     <module>jobs/process/ADMIN/job_log_done_0.1</module>
-    <module>jobs/process/EN_ODS/en_ods_master_0.1</module>
     <module>jobs/process/ADMIN/file_log_error_0.1</module>
     <module>jobs/process/ADMIN/job_log_error_0.1</module>
     <module>jobs/process/ADMIN/job_log_start_0.1</module>
@@ -314,6 +312,8 @@
     <module>jobs/process/Webinar/LZ_EN/lz_en_master_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_insert_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_master_0.1</module>
+    <module>jobs/process/Webinar/EN_ODS/en_ods_copy_0.1</module>
+    <module>jobs/process/Webinar/EN_ODS/en_ods_master_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
