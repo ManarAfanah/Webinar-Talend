@@ -314,11 +314,11 @@
     <module>jobs/process/Sample/TUTO79/cif_customer_parsing_0.1</module>
     <module>jobs/process/Sample/TUTO79/extract_invalid_values_0.1</module>
     <module>jobs/process/Sample/TUTO82/dedupewithmatchgroup_0.1</module>
-    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customers_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_orders_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customers_bk_1.0</module>
     <module>jobs/process/Webinar/ADMIN/copy_of_file_log_done_0.1</module>
     <module>jobs/process/Webinar/ADMIN/job_log_error_orig_0.1</module>
+    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customer_1.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
