@@ -322,6 +322,7 @@
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_pk_null_check_0.1</module>
     <module>jobs/process/Webinar/ADMIN/dq_log_done_0.1</module>
+    <module>jobs/process/Webinar/DATA_QUALITY/copy_of_dq_duplication_check_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
