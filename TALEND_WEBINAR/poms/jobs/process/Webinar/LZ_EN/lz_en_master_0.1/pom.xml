@@ -399,7 +399,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.talend_webinar.job</groupId>
-      <artifactId>LZ_EN_CUSTOMERS</artifactId>
+      <artifactId>LZ_EN_CUSTOMER</artifactId>
       <version>1.0.0</version>
     </dependency>
   </dependencies>
