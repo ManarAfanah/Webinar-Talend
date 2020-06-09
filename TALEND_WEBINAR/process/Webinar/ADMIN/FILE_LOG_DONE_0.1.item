@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="connection_ADMIN_role" prompt="connection_ADMIN_role?" promptNeeded="false" type="id_String" value="TALEND"/>
-    <contextParameter comment="" name="connection_ADMIN_loginTimeout" prompt="connection_ADMIN_loginTimeout?" promptNeeded="false" type="id_Integer" value="15"/>
-    <contextParameter comment="" name="connection_ADMIN_region" prompt="connection_ADMIN_region?" promptNeeded="false" type="id_String" value="AWS_US_EAST"/>
-    <contextParameter comment="" name="connection_ADMIN_schemaName" prompt="connection_ADMIN_schemaName?" promptNeeded="false" type="id_String" value="ADM"/>
-    <contextParameter comment="" name="connection_ADMIN_db" prompt="connection_ADMIN_db?" promptNeeded="false" type="id_String" value="TALEND_SNOWFLAKE_WEBINAR"/>
-    <contextParameter comment="" name="connection_ADMIN_warehouse" prompt="connection_ADMIN_warehouse?" promptNeeded="false" type="id_String" value="WEBINAR_WH"/>
-    <contextParameter comment="" name="connection_ADMIN_account" prompt="connection_ADMIN_account?" promptNeeded="false" type="id_String" value="keyrus.us-east-1"/>
-    <contextParameter comment="" name="connection_ADMIN_userPassword_password" prompt="connection_ADMIN_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:MA+BHTe1pQ+cWAtDutvwbIW94oobMrRuZ1k/3R9Pv60+YKI8/uin"/>
-    <contextParameter comment="" name="connection_ADMIN_userPassword_userId" prompt="connection_ADMIN_userPassword_userId?" promptNeeded="false" type="id_String" value="TALEND_SVC"/>
-    <contextParameter comment="" name="connection_ADMIN_jdbcParameters" prompt="connection_ADMIN_jdbcParameters?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_ADMIN_customRegionID" prompt="connection_ADMIN_customRegionID?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="ARCHIVE_PATH" prompt="ARCHIVE_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
     <contextParameter comment="" name="ORIG_FILE_SIZE" prompt="ORIG_FILE_SIZE?" promptNeeded="false" type="id_Integer" value="0"/>
     <contextParameter comment="" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="ENRICHED/EVENT/enriched_event_HESAPPPRDX01_Events_exceptions_NMG00001_11_07_2019_05_05_31.xml_04/21/2020 06:00:48.csv"/>
@@ -27,76 +16,10 @@
     <contextParameter comment="" name="ROWS_PROCESSED" prompt="ROWS_PROCESSED?" promptNeeded="false" type="id_Integer" value="0"/>
     <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.3&quot;"/>
     <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::856603912865:role/Talend_Webinar&quot;"/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:QQlVDgw6EKqPkJgYgPWSaKdlfE3A2igRCr2qMPguejm0Qj2PR4MkHjF8eHFWclYLQMM4p4J1q8FxmXlt2k8dliReA5A="/>
+    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:3Zhx9qAhoWwEJFQVvV8gYxsuKY4tyin/ANFo/3qsvIVYPw5+qrW6LZ7+gNSrzSLQOBqC5g7P1exUbmNJAa6uWZCXzwc="/>
     <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;talend-snowflake-webinar&quot;"/>
     <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value="60"/>
     <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIA4O4MSNKQ5SQNXQMF&quot;"/>
-  </context>
-  <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="ARCHIVE_PATH" prompt="ARCHIVE_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ORIG_FILE_SIZE" prompt="ORIG_FILE_SIZE?" promptNeeded="false" type="id_Integer" value="0"/>
-    <contextParameter comment="" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="FILE_ID" prompt="FILE_ID?" promptNeeded="false" type="id_Integer" value="123"/>
-    <contextParameter comment="" name="BATCH_ID" prompt="BATCH_ID?" promptNeeded="false" type="id_Integer" value="123"/>
-    <contextParameter comment="" name="ERROR_PATH" prompt="ERROR_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ORIG_FILE_FORMAT" prompt="ORIG_FILE_FORMAT?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ORIG_FILE_NAME" prompt="ORIG_FILE_NAME?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="IS_LOADED_TO_DWH" prompt="IS_LOADED_TO_DWH?" promptNeeded="false" type="id_Boolean" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value="123"/>
-    <contextParameter comment="" name="LZ_ENRICHED_PATH" prompt="LZ_ENRICHED_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="FILE_STATUS" prompt="FILE_STATUS?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="LZ_FILE_PATH" prompt="LZ_FILE_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ROWS_PROCESSED" prompt="ROWS_PROCESSED?" promptNeeded="false" type="id_Integer" value="0"/>
-    <contextParameter comment="" name="connection_ADMIN_role" prompt="connection_ADMIN_role?" promptNeeded="false" type="id_String" value="SYSADMIN"/>
-    <contextParameter comment="" name="connection_ADMIN_loginTimeout" prompt="connection_ADMIN_loginTimeout?" promptNeeded="false" type="id_Integer" value="15"/>
-    <contextParameter comment="" name="connection_ADMIN_region" prompt="connection_ADMIN_region?" promptNeeded="false" type="id_String" value="AWS_US_WEST"/>
-    <contextParameter comment="" name="connection_ADMIN_schemaName" prompt="connection_ADMIN_schemaName?" promptNeeded="false" type="id_String" value="ADM"/>
-    <contextParameter comment="" name="connection_ADMIN_db" prompt="connection_ADMIN_db?" promptNeeded="false" type="id_String" value="MDP_DWH_PRD"/>
-    <contextParameter comment="" name="connection_ADMIN_warehouse" prompt="connection_ADMIN_warehouse?" promptNeeded="false" type="id_String" value="ETL_PRD_WH"/>
-    <contextParameter comment="" name="connection_ADMIN_account" prompt="connection_ADMIN_account?" promptNeeded="false" type="id_String" value="ouc.us-east-1"/>
-    <contextParameter comment="" name="connection_ADMIN_userPassword_password" prompt="connection_ADMIN_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:PdmvY2AW6xjwnWvbSJk/BmtDf/Tk7e1xSb4surQYkAMBq+kCxtkT8w=="/>
-    <contextParameter comment="" name="connection_ADMIN_userPassword_userId" prompt="connection_ADMIN_userPassword_userId?" promptNeeded="false" type="id_String" value="TALEND_SVC"/>
-    <contextParameter comment="" name="connection_ADMIN_jdbcParameters" prompt="connection_ADMIN_jdbcParameters?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_ADMIN_customRegionID" prompt="connection_ADMIN_customRegionID?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-prd&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value=""/>
-  </context>
-  <context confirmationNeeded="false" name="TST">
-    <contextParameter comment="" name="ARCHIVE_PATH" prompt="ARCHIVE_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ORIG_FILE_SIZE" prompt="ORIG_FILE_SIZE?" promptNeeded="false" type="id_Integer" value="0"/>
-    <contextParameter comment="" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="FILE_ID" prompt="FILE_ID?" promptNeeded="false" type="id_Integer" value="123"/>
-    <contextParameter comment="" name="BATCH_ID" prompt="BATCH_ID?" promptNeeded="false" type="id_Integer" value="123"/>
-    <contextParameter comment="" name="ERROR_PATH" prompt="ERROR_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ORIG_FILE_FORMAT" prompt="ORIG_FILE_FORMAT?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ORIG_FILE_NAME" prompt="ORIG_FILE_NAME?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="IS_LOADED_TO_DWH" prompt="IS_LOADED_TO_DWH?" promptNeeded="false" type="id_Boolean" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value="123"/>
-    <contextParameter comment="" name="LZ_ENRICHED_PATH" prompt="LZ_ENRICHED_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="FILE_STATUS" prompt="FILE_STATUS?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="LZ_FILE_PATH" prompt="LZ_FILE_PATH?" promptNeeded="false" type="id_String" value="&quot;test&quot;"/>
-    <contextParameter comment="" name="ROWS_PROCESSED" prompt="ROWS_PROCESSED?" promptNeeded="false" type="id_Integer" value="0"/>
-    <contextParameter comment="" name="connection_ADMIN_role" prompt="connection_ADMIN_role?" promptNeeded="false" type="id_String" value="SLF_MDP_TST_DBA"/>
-    <contextParameter comment="" name="connection_ADMIN_loginTimeout" prompt="connection_ADMIN_loginTimeout?" promptNeeded="false" type="id_Integer" value="15"/>
-    <contextParameter comment="" name="connection_ADMIN_region" prompt="connection_ADMIN_region?" promptNeeded="false" type="id_String" value="AWS_US_WEST"/>
-    <contextParameter comment="" name="connection_ADMIN_schemaName" prompt="connection_ADMIN_schemaName?" promptNeeded="false" type="id_String" value="ADM"/>
-    <contextParameter comment="" name="connection_ADMIN_db" prompt="connection_ADMIN_db?" promptNeeded="false" type="id_String" value="MDP_DWH_TST"/>
-    <contextParameter comment="" name="connection_ADMIN_warehouse" prompt="connection_ADMIN_warehouse?" promptNeeded="false" type="id_String" value="ETL_TST_WH"/>
-    <contextParameter comment="" name="connection_ADMIN_account" prompt="connection_ADMIN_account?" promptNeeded="false" type="id_String" value="ouc.us-east-1"/>
-    <contextParameter comment="" name="connection_ADMIN_userPassword_password" prompt="connection_ADMIN_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:famIx/zW4/5EUTUZJwCFvbgj2kGXLshfVmAxQKs0fTapIbANkf5UQw=="/>
-    <contextParameter comment="" name="connection_ADMIN_userPassword_userId" prompt="connection_ADMIN_userPassword_userId?" promptNeeded="false" type="id_String" value="TALEND_SVC"/>
-    <contextParameter comment="" name="connection_ADMIN_jdbcParameters" prompt="connection_ADMIN_jdbcParameters?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_ADMIN_customRegionID" prompt="connection_ADMIN_customRegionID?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-tst&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -140,7 +63,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:umdMDysJqhEMdxuyWp46NDizalRXDdEJZEaMmyh1"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:j1bTja0sdsEDEiRi4MQM4OVyTcUBD2JKPDxxFLXF"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -175,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:kMP9c/n25A0TvO/jD9r2wcrAnu7A8dJshtst8EOC"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TknaWyH0QOE/0RVy4V0qx7EXBrTGOVW7T753ovzy"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -371,7 +294,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="context.connection_aws_access_key"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:wa+nMZNBKSDE55i8FXjlFMr6sQhfp26TNwlqVzxBdrEMpcSpxzVJwZx4mwH4hz8QxkWiHcGe6sOs2vbFXw=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:usmOaecagrA7dKPcgfDNzFrKGZz92+l/PFzuHuITe+DrNxCwDMhCvYNo8LE9BrFS22s/Nj6lCSd10c1Dlg=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="context.connection_aws_role_arn"/>
@@ -383,8 +306,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:jlsvqdG1fe0zVA0cWlkDCpqAujpZisE29n7maivk"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:YLzoz1gWH6WZChY/mkKBtLFHklEnDeZXAaQkT28e"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:mdWr8WvofxMHJKABYXf/KQepJaooOgAOxkl2huUD"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:YMAZxSC/ZHFmYLrtDaNSSZ+4A55P1g/K8jicibWU"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -405,7 +328,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:rTdxDo7GAZUibpKWG4e7ltyJBYq/+nOXtAy+Ba2A"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:+1h78H22sbuxE+v0tBYk5WgKjZaN3HhgPuy+Wnr7"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -417,8 +340,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:tpHswfxlLbej4LZ/Sh06uYvRk9MQugR7IPw71ZDN"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:5KzG7vMt44979fJLpZubp521UsAHXaK2gkTj+Mpp"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:exbfxq2snnlSMEeL6yvrpdqaGJix9CiZcj+fLupf"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:as5eo2sAvuZlF0CdoOI7PCk/htt4yBMlmuul4OlV"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -544,13 +467,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1f1c44db-5116-45db-be7b-5d2e3dc723a0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EmbamzX6dpomI7HAZB80NBHZwbDFCyGaruxCwjR+L2DzSCk6L7mp26g6WT6BLjnvxJlCMAZoSfbg
-eUWonROMjA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7e45b47e-ae64-484f-9275-54b4424e2037"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JzSiVakuYbVclo0A4zhYf77mIoqSx61zWL7ZGKDJjrA6izXpvUDEw8cLxUydWr7x8JAPWqSUG3qg
-A2q4DlEVhg==</DigestValue></Reference></SignedInfo><SignatureValue>S2IffH0B/UDPfcrTdZC4j0Pj4AzWWpGL0ffh4tEP8vefdLhm537NeVNThN85x7uqoKkSqxqiMuEd
-iUXgpb5baEfKkmXsWIh/KuwoXiHF1Uet94LcWoai9leG2FyDzaHu6GoLpNeFwa3fDaDPs7wPpkD4
-A3xIs6CYT7w2Tu2X5kklOUN7TKn+YdFkkHJkrSj6XtezaueS6X05LWJGtMycRZ8S+Px8B9bXvtyN
-DO2/s8rbEVk5fNNRl16q4vXptM8jc8fwJwiTYfuf1vf1uT+YbnXGzHxQzQX1YKdHSriNjM41KG/v
-7q4FR/vai5AnEECFOEeejI+13RUlxtoptJbwaw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d6165d89-8e98-4718-835b-7918fc22079e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0jCad2n7sJKWKuRqsruznKarVZGANpfH+P18TLyuHqlABubbaElQChoPDnVuBozAn2+p/QihyNJc
+Y+QkuYHwGA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_12e927ab-3cf5-43aa-9e1f-1d3a8b5190ac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>y2bhg5g3UjYa2TPJj8OabE6oaRhUWT+PjKTsckddoSyFvCxNOcdNV74PrdI8GLjgwqacEkpr2Y+K
+KT6eZgE+iQ==</DigestValue></Reference></SignedInfo><SignatureValue>ZjwAAuvjlUaGVlzhshbUhNIESX0cF+0bhyfVJ/J1MoNdkxL/TVBO74Sxa8OnkiZPUy+5HI8JbJvJ
+053JtJgdt5qbrog+98d4BR5UIuTW/xKdd8yKoRUCjKzZOPd3Gvji03gZfGvvFCuNnIcUOTb0ejn4
+Wsj/TJBjd36/AWDVWjMnbpx2Thl8niVjX55KJxhxg42CWYGEq7FIyV/aSqXVruLR2UdNFgMEM4d5
+sF5JDsOORTqlLpt7bR1XE7Gu9kRL/OUNqZR72rnbDg6Yu2DimTxPXBiUlYZwGeDYe+uZmTFTnrl+
+zmQex5xxGTEKNqIP+3OcbAZoUkdZkrE2C8BOIQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -572,4 +495,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7e45b47e-ae64-484f-9275-54b4424e2037" Target="#_1f1c44db-5116-45db-be7b-5d2e3dc723a0"><Timestamp>2020-06-09 05:38:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_12e927ab-3cf5-43aa-9e1f-1d3a8b5190ac" Target="#_d6165d89-8e98-4718-835b-7918fc22079e"><Timestamp>2020-06-09 06:50:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
