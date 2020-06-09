@@ -952,14 +952,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_tTZi8E0PEeqMAeJ8USyceQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_yhwvoFMtEeqwQZecF4UKHg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "METERDATAPLATFORM:_U8UzQFzaEeqQdIku8RggrQ",
     "version" : "Latest",
     "type" : "job"
@@ -1027,10 +1019,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_dXTj0ImCEeqsAO3S93yH9A - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
