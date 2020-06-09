@@ -316,6 +316,7 @@
     <module>jobs/process/Sample/TUTO82/dedupewithmatchgroup_0.1</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customers_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_orders_1.0</module>
+    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customers_bk_1.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
