@@ -318,6 +318,7 @@
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_orders_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customers_bk_1.0</module>
     <module>jobs/process/Webinar/ADMIN/copy_of_file_log_done_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/job_log_error_orig_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
