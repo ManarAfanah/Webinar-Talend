@@ -1,53 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="MeterSync">
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIAXAFZWLSHOK2WHH5J&quot;"/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:AG3s/DUhRaHnjTd0uppIOfcrdwb7HNKT+P+xx90SEYjOknpMagoSeI4F5iEtzYup5LeleOvv/cvqgjKN6Hp0OPTa6RukNjvzRntmR/s+0GNAj7676xH3ZQ4T9o0="/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::481425775758:role/ouc-mdo-dev-S3-mdp-landing-zone-dev-Access-Role&quot;"/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.2&quot;"/>
-    <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-dev&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value="60"/>
-    <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
-    <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
-  </context>
-  <context confirmationNeeded="false" name="InstalledMeters">
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIAXAFZWLSHOK2WHH5J&quot;"/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Z9lkJCUkVUedNldv76LF8MYKn2Msa/kRPdAAvWxQLxxzp95YHwGt2+X7dBCCTpNcELtUyjBPgxYRpewd0WQgS+s5jEzyOTW4liarWs1h4nuwsjt4ND2SBKgFNN0="/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::481425775758:role/ouc-mdo-dev-S3-mdp-landing-zone-dev-Access-Role&quot;"/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.2&quot;"/>
-    <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-dev&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value="60"/>
-    <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
-    <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
-  </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/COLLECTOR/&quot;"/>
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIAXAFZWLSHOK2WHH5J&quot;"/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:BOwT5DDi3mGC2cdVQB5PFB7hvo0uFkyZVR0kND6CG8q5+7sQoHYGUu2YmlTV0gpUtlr1he8KCtHI9hFQPA3S0/CeqFnTFyMg2GVRUXukfSA/EIRfJfJxs6S8tbY="/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::481425775758:role/ouc-mdo-dev-S3-mdp-landing-zone-dev-Access-Role&quot;"/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.2&quot;"/>
-    <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-dev&quot;"/>
+    <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/CUSTOMER/&quot;"/>
+    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIA4O4MSNKQTJ2NXAHX&quot;"/>
+    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:ffSzE2f5154nm/pxFayy9/A+3FV7u/sJXU5knUva23lPV7PC1oU1xrNbhCA+PMwdYGBGT5LruunTfdit6/vmWJ6s139fYQruJs1FjqXj4bEtJlHgWZlmmfrWGtI="/>
+    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::856603912865:role/Talend_Webinar&quot;"/>
+    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.3&quot;"/>
+    <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;talend-snowflake-webinar&quot;"/>
     <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value="60"/>
     <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
     <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
-  </context>
-  <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/COLLECTOR/&quot;"/>
-    <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
-    <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-prd&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="TST">
     <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/COLLECTOR/&quot;"/>
@@ -60,6 +23,19 @@
     <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-tst&quot;"/>
+    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PRD">
+    <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/COLLECTOR/&quot;"/>
+    <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
+    <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="connection_aws_mdp_LZ_s3_bucket" prompt="connection_aws_mdp_LZ_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-prd&quot;"/>
     <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
@@ -104,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:WoaZJUo6apgrtysFJbVwVvvvYup4wmmyx0ypTDBm"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:suYZrPR/gLkAru0MG51MXOcvg17nLjzhXfoOiuUz"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -139,7 +115,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:PyIBVULCVEeehoutjcgQCgR7fR+oSnbF5hDbRA7/"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5WTGTdn7tQ9bKZdo0fxD+RpuroCXOURnG5Jh4blV"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -183,7 +159,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:7lmKpT4G2bb1411yVVLJ/AVL1w3LCNI09m5Cqr4/"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:t5hTAMI6ictOloQ1cilpgk9y8beC61/ewo1SfMPe"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -195,8 +171,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:aJ/XHrDsUqR2gFM2wLORXxx4rQ5qGJE7QODWfZe6"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:NbXrfS4m+Ws3MWch02ebWymRuqg/4R1+g9y4e6Qk"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:P8gNV1bVMqAK0qnsXu9sYZ/dEq4y0sEh4hXplVxg"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:QBkYGmHxV1WIJmwrPBjkreQx/TsxS9yXRYAsNT9v"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -226,7 +202,7 @@
     <elementParameter field="CHECK" name="USE_PREFIX" value="true"/>
     <elementParameter field="LABEL" name="INFO_RANGE" show="false" value="The temporary file name should include template &quot;XXXX&quot;. Template is deprecated. Use Prefix instead."/>
     <elementParameter field="TEXT" name="TEMPLATE" show="false" value="&quot;talend_XXXX&quot;"/>
-    <elementParameter field="TEXT" name="PREFIX" value="&quot;en_field_activity&quot;"/>
+    <elementParameter field="TEXT" name="PREFIX" value="&quot;en_customer&quot;"/>
     <elementParameter field="TEXT" name="SUFFIX" value="&quot;tmp&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="Enriched Field Activity Temp"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -236,7 +212,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:PXYc214xVLEKqC2uXnjKoVSPZO2JSlzXgXuC8/qE"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:Ar4s3byV/JSBOgDF/oc4p6hjoaVoyHZS8ej58R5W"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -264,7 +240,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:1yPqcAHFSYguMsBurWjalKoN97mBHVKzPxSBRbd0"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:Z2mmgQD7DsvX6w4YVH9SKYAl0p9HTFOalhDfvvus"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -293,21 +269,21 @@
   </node>
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
-    <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="context.connection_aws_access_key"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:5ITtJ6laQgK5INb8qka/ERARdCB0NrmjUl8Q0FDBMw9VAv4RMIdJEnxlQ9w0QYssD787qUqIjS9V3zs8pg=="/>
-    <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="true"/>
-    <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
-    <elementParameter field="TEXT" name="ARN" show="false" value="context.connection_aws_role_arn"/>
-    <elementParameter field="TEXT" name="ROLE_SESSION_NAME" show="false" value="context.connection_aws_role_session_name"/>
-    <elementParameter field="TEXT" name="SESSION_DURATION" show="false" value="60"/>
+    <elementParameter field="TEXT" name="ACCESS_KEY" value="context.connection_aws_access_key"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:RV+RYsRYGJo0hWc/7zn34okbd17tHIgZ6v7pDvAilU3dXzGHdw2DlIJBN+ve/DUTYHxeovJ058ioJ4MVwQ=="/>
+    <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
+    <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
+    <elementParameter field="TEXT" name="ARN" value="context.connection_aws_role_arn"/>
+    <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="context.connection_aws_role_session_name"/>
+    <elementParameter field="TEXT" name="SESSION_DURATION" value="60"/>
     <elementParameter field="OPENED_LIST" name="REGION" value="DEFAULT"/>
     <elementParameter field="CHECK" name="ENCRYPT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="KEY_TYPE" show="false" value="KMS_CMK"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:o71QzqOHFxoQVtlIBQGX9YjQNVtj/kx+EHJm1Q/k"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:22206HNpi3wzNgaDXTxBqIAyRJEaibwZlpPLwJbC"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:PO+vmuAyj5Ffs9FbIMnYAYfPrBVVcmvtVk1J2gXu"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:MwzaVixGcFZpVd8atbtgGeZKSg9tJ0EBNQ5w4zb6"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -315,7 +291,7 @@
     <elementParameter field="TEXT" name="REGION_ENDPOINT" show="false" value="&quot;s3.amazonaws.com&quot;"/>
     <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false"/>
     <elementParameter field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
-    <elementParameter field="CHECK" name="SET_STS_ENDPOINT" show="false" value="false"/>
+    <elementParameter field="CHECK" name="SET_STS_ENDPOINT" value="false"/>
     <elementParameter field="TEXT" name="STS_ENDPOINT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="CHECK_ACCESSIBILITY" value="true"/>
     <elementParameter field="CLOSED_LIST" name="CHECK_METHOD" value="BUCKET_CONFIGURATION"/>
@@ -821,7 +797,7 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="5" offsetLabelY="0" posX="864" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.DirectoryLocation"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.current_file_path"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -1224,7 +1200,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:KuDh8fMVUXbf9fAADE1GhQeN98iXXJKBOUmG4Yug"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:ZH3ekMTqiBAOkMkTXKGZ8aivaUKpXzJMq1ekcUcE"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -1236,8 +1212,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:axpFUOQywdjWkBAdt+XndJaXNsSPLOoqQEvOhjXS"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:CHUFeU/kEfIbS60FAGlIkQvwDvla+bVK0t+j8+Vk"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:nhxnO5R+WGS+WKOA+udFFhVKsGQD2pT5r/VBkA4U"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:gBYz7TfYvg60E7fivCcJya9+8Zbk1yUyTfRzwrvi"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -1424,13 +1400,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_873f07e9-d2c5-4ead-9c58-cafb58f49f4d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yCXvv5gkiCfwO354lzbBjyXVsPVQaPJHothM1L/dHUQ5dA79yxxfSJ1xmZq+GYic9d57ZGEipRrQ
-CWu4C4BWow==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_30cf358f-bf5d-4826-bdb5-ccce0d5dcdeb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SjE5Uo+sapJe7hG7ninwyCfP2ABVZK4n8VkxwkndYwk7Tl1JvuHyo5Z2WN6NZEsbtrPosK63mmLr
-j5LPdaQvYw==</DigestValue></Reference></SignedInfo><SignatureValue>YfzXEmnE+iT96kb3pfMfbCAdtV22sKrtoIDSn5bchge8cTl5emUwGTFeItVeab7vqJ8me4JP6TtA
-pq8cUokdEx0Jbr/yjujrvMHvSIms190UT+E4Cl8i6vnF4dIaV9rq66jCEowARR8u5CzMv2J+4GGr
-Ra6hm8qnQyWJaqzB1DYGA4WwIFJL9jgIuNaI4rmB1cSFq/OiYTLgyGtTT73cGhayIgL+jaRqlJV7
-vLHYwXsvj6af7TnOvwUhOFeaY3x1Go/y2+E0Tbn1B/ajQac++6PLATqSPq2feb+kO3XCnEZ0+lbx
-b957Od2isItD9z73AAM+q4C05oDV4F5eWUMVDQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f86f4b19-29fc-4926-bd64-f63e8844f218"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ekm+FaAcKlbH/UA1ju+T884h7Y+ubZFSytYwrG1MKkDC/AIAFyui5CI2DUWbwXfuPosze5LZprYb
+u/dDCz5XBg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6bd81287-f69e-46bd-aef0-339ef7a8d81b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>P0aTZd0JAiMKy88sUvYWIEx+2c5GDy9InrPaVatxBW1IZry7j9WUgcRK1wlncPDMd23gWc65Mu0S
+wcr/9Qx7lQ==</DigestValue></Reference></SignedInfo><SignatureValue>XNomoRTbMg8UHISV8OWVojdmzay+9YcX9+WoSq/Pak3YIEsxGBAwy6ET0F8wDkKBML4zANmu9zlC
+jWmnobxkPUkAxdn/OluB+L9HJSCiZ9xcBenOIxswLU9jlxOfuItnsD1F300WE7Q5KjBv2cRxH+Fl
+R2l4uwFa5wl8rR8eJpLAW5qTO37INlUeRTsFkRnirR6OKTauLi66RJxczZ0Hj6rIb7q4sgrBtxlc
+03bYj4YYiSwYQ+Su1oWsvhzQy/vQVyGNCXIyuUTo8bTl2AlDrzRzYRX0MPfAc1CtNWq4Lvoap6GL
+bnCksEJbuW1idnFIZ+ji9OBwx7gmyoAicH+mIQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1452,4 +1428,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_30cf358f-bf5d-4826-bdb5-ccce0d5dcdeb" Target="#_873f07e9-d2c5-4ead-9c58-cafb58f49f4d"><Timestamp>2020-06-09 03:24:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6bd81287-f69e-46bd-aef0-339ef7a8d81b" Target="#_f86f4b19-29fc-4926-bd64-f63e8844f218"><Timestamp>2020-06-09 03:55:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
