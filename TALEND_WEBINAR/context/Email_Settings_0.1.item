@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_9DI1EKwAEeq688JlZUtKcg" xmi:version="2.0">
-  <contextParameter comment="" name="connection_SMTP_PASSWORD" prompt="connection_SMTP_PASSWORD?" promptNeeded="false" type="id_Password" value="dan293123" xmi:id="_BCwFQKwBEeq688JlZUtKcg"/>
-  <contextParameter comment="" name="connection_SMTP_PORT" prompt="connection_SMTP_PORT?" promptNeeded="false" type="id_String" value="465" xmi:id="_BCwsUKwBEeq688JlZUtKcg"/>
+  <contextParameter comment="" name="connection_SMTP_PASSWORD" prompt="connection_SMTP_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:rPc0HsmqkQSqokoCqB5lg+fgvlYG9kLf6V99KhnoliBds0sHeg==" xmi:id="_BCwFQKwBEeq688JlZUtKcg"/>
+  <contextParameter comment="" name="connection_SMTP_PORT" prompt="connection_SMTP_PORT?" promptNeeded="false" type="id_String" value="587" xmi:id="_BCwsUKwBEeq688JlZUtKcg"/>
   <contextParameter comment="" name="connection_SMTP_SENDER" prompt="connection_SMTP_SENDER?" promptNeeded="false" type="id_String" value="nadav.malka@keyrus.us" xmi:id="_BCwsUawBEeq688JlZUtKcg"/>
   <contextParameter comment="" name="connection_SMTP_HOST" prompt="connection_SMTP_HOST?" promptNeeded="false" type="id_String" value="smtp.gmail.com" xmi:id="_BCwsUqwBEeq688JlZUtKcg"/>
   <contextParameter comment="" name="connection_SMTP_RECIPIENTS" prompt="connection_SMTP_RECIPIENTS?" promptNeeded="false" type="id_String" value="nadav.malka@keyrus.us" xmi:id="_BCwsU6wBEeq688JlZUtKcg"/>
   <contextParameter comment="" name="connection_SMTP_USERNAME" prompt="connection_SMTP_USERNAME?" promptNeeded="false" type="id_String" value="nadav.malka@keyrus.us" xmi:id="_BCwsVKwBEeq688JlZUtKcg"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_54d2b12e-77de-43b0-a8e5-5856c1be85bb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WrsD7Gl7GPhkM8AcoPl97PeWhtFXrFluIHpIPGwNTm70zWLGVKcEj0vA1F3QTkafASF0GQk8noZ/
-aLKDr57eIA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d9509451-b4c2-4385-9104-ffe55d6b9dff"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ACGIBNj9Dhn+o7pFdssrBATnutNLaeXWmwKxRaH7dkmEolfpOrsf6uroCxnsktowhoBH8GrNKP4p
-5hJufC/DFg==</DigestValue></Reference></SignedInfo><SignatureValue>X3lg0UblNO9+COOG/pS6Zv14+Oeth6pzXHVlQQKyEW6WOIxTMt6oy9HvBxIABZLTMhY2zbuoJx/1
-v5nXIwXst8LeG4NALFl8MfTkEo3F2+hwX2b0b3LEGpm7MuY+iV9r4spn71TzySei/RG1+M/+ByT4
-k6BhxZ5fumNm1S7za9mhNcd8G18exhU6uTyrUOP6V4ydjtDeJXIGL8WVIYArl+bMSwiVdxSsirB2
-lpe3wegPxiX8yKsT8HoJG5+TRXwSegV6wBy1VSjOUfXiu/s1rRwy8JPQrlZaSBT4vfEZbIpE8DpB
-f/kOW+00ZR+69DfT/5/Fw5b6aC/epKBdfcwxvA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_38cc3a77-2df9-441b-a14e-4625840f72d9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>35Xr/omY8VUcLYw2PJnWyTC7v0RDElUFTQ0bEnr8pX6TYAMFdvvOL+6FNRBvYsvojlRyternYfuI
+NrSjBrVzbg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d2b1ea68-5d7f-4c40-a31b-f430cd3ca2cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ef3OLRiNQvQWQVskUOVmB6dLAUGXxBywzk0OnvnWRHFg08gsC3uWM8rfQmV09XYNNZSUAg/5yRqx
+D83HFB0vSw==</DigestValue></Reference></SignedInfo><SignatureValue>TMXaNmnhfuVo0zFUFg+/SD7Om6FSYN9JkOS+1zrasIVihCU3eE8VwxKrhpep9fUOKFNSBnUWuARJ
+JM1SY3sVchEDZSDXYtrv99SbbsFSBL9L7d08W42XhGixnun/Gfz6JXarlTTK/GbpyNhgSjZ6sdp9
+WtA+WVuken/jU+2bMkT0q+fCXH4pbj+h4PMlOGkZdAZ0SHTFL6C/EJ9lKlmto3IRDnBq+w9EeiML
+zbcg6PIF93qlSNkuFBzp4g/VaCNNPmysdto9Vr7YRiYTkV9ThwE71rggWpoAxfGKR70K5YrOS3dq
+xWwgwhx8exrJ+JuLXWrFToBC5tobB5m6KP1zvw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -33,4 +33,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d9509451-b4c2-4385-9104-ffe55d6b9dff" Target="#_54d2b12e-77de-43b0-a8e5-5856c1be85bb"><Timestamp>2020-06-11 16:31:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d2b1ea68-5d7f-4c40-a31b-f430cd3ca2cd" Target="#_38cc3a77-2df9-441b-a14e-4625840f72d9"><Timestamp>2020-06-11 16:34:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
