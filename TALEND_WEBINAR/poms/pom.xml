@@ -314,7 +314,6 @@
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customer_1.0</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_pk_null_check_0.1</module>
     <module>jobs/process/Webinar/ADMIN/dq_log_done_0.1</module>
-    <module>jobs/process/Webinar/DATA_QUALITY/copy_of_dq_duplication_check_0.1</module>
     <module>jobs/process/Sample/beforerunjobs_0.1</module>
     <module>jobs/process/Sample/demorest_0.1</module>
     <module>jobs/process/Sample/demorestconsumer_0.1</module>
@@ -323,6 +322,7 @@
     <module>jobs/process/Sample/priortest_0.1</module>
     <module>jobs/process/Sample/readme_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check1_0.1</module>
+    <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
