@@ -323,6 +323,7 @@
     <module>jobs/process/Sample/readme_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check1_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
+    <module>jobs/process/Webinar/DATA_QUALITY/test_email_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
