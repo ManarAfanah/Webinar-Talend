@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-06-12T02:07:23.219-0400"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-06-12T02:08:31.631-0400">
+  <deletedFolders>process/Import_test/LZ_EN/LZ_EN_JOB</deletedFolders>
+  <deletedFolders>process/Import_test/LZ_EN</deletedFolders>
+  <deletedItems id="__B4l8HoJEeqGopOrvWJ0Lw" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_QqcmwHrIEeqT9voP5UAYTQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_680ZgHrDEeqT9voP5UAYTQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_KlrT4Hn3EeqbJdIdkhYxbQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_e6lXgHn3EeqbJdIdkhYxbQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_ht6SYHoFEeqGopOrvWJ0Lw" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_v1-ZMHrJEeqT9voP5UAYTQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_F1Bf4HrJEeqT9voP5UAYTQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_urxEUHrTEeqbNbtdUwnq9Q" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_-14exKxyEeqY9vVsbFoVKQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_2zirQH0ZEeqeH-imFl0EyQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_-RXOQHrVEeqbNbtdUwnq9Q" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_ygs-EH0OEeqeH-imFl0EyQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_3tlAsH0QEeqeH-imFl0EyQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_Q-Z50H0TEeqeH-imFl0EyQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_dHqVMH0UEeqeH-imFl0EyQ" path="Import_test/LZ_EN/LZ_EN_JOB" type="PROCESS"/>
+  <deletedItems id="_rqyiYKxyEeqY9vVsbFoVKQ" path="Import_test/LZ_EN" type="PROCESS"/>
+</recyclebin:RecycleBin>
