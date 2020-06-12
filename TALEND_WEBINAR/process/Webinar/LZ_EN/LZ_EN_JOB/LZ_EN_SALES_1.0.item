@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/CUSTOMER/&quot;"/>
     <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIA4O4MSNKQ5SQNXQMF&quot;"/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:3gN+Reu4rmU1Z9wWC1TkNli7UX0ixnOFLVUg45nULzCUl39/MoulVsSVhXKprw91sNIZVjF01hVuiiiIOP9INFsUEFw="/>
+    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:RVLcav9nu6btc363HfZqX3gIq/nV8E4w/7mkOHn30sWYv7vFhFoOElxb4CYWWhnQNgMZUQL/ti7kKsZufpEdZQXaStk="/>
     <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::856603912865:role/Talend_Webinar&quot;"/>
     <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.3&quot;"/>
     <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;talend-snowflake-webinar&quot;"/>
@@ -12,34 +12,6 @@
     <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="destination_file_path" prompt="destination_file_path?" promptNeeded="false" type="id_String" value="&quot;ENRICHED/CUSTOMER/&quot;"/>
-  </context>
-  <context confirmationNeeded="false" name="TST">
-    <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/COLLECTOR/&quot;"/>
-    <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
-    <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-tst&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="destination_file_path" prompt="destination_file_path?" promptNeeded="false" type="id_String" value=""/>
-  </context>
-  <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/COLLECTOR/&quot;"/>
-    <contextParameter comment="" name="current_file_path" prompt="current_file_path?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/INTERVAL_TEST/&quot;"/>
-    <contextParameter comment="" name="current_s3_folder" prompt="current_s3_folder?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="DATA_STREAM_CD" prompt="DATA_STREAM_CD?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="current_file_name" prompt="current_file_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;mdp-landing-zone-prd&quot;"/>
-    <contextParameter comment="" name="connection_aws_session_duration" prompt="connection_aws_session_duration?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="destination_file_path" prompt="destination_file_path?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -83,7 +55,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:v4I11xkitHt4LcuTd6pivpj2fOY4nSYj4JFEON6c"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:lAH2NTuE8ZOQEvfG3zlERZM2mnPKVIkuheKFxqJD"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -118,7 +90,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:DzN0hY6zv3KX3ZZI67WLpRaU3kX3wI4pw5szJ4C/"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7eJSrP1FeQHmT68TxW7O6Xv4eH1XpnrkQRtgnU0V"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -162,7 +134,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:88aIJKg6086jUrCIy0j1q31c36Y+1rQcQPwMcXTf"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:FL/Mub3LHy26B3qDrSB3sHh7RdklcBjXu5cGQ0J6"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -174,13 +146,13 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:rpL2wc1oVIkVPMzSpfIiOM56JpJsWMHkerFJQnfZ"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:DOayt4UDL9uLu0lYRioQfuKSR0X9enUOrP/7iwSy"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:Yo2aOKtJFAewz4iHLT01496t1JAZGVpfiz9LTXun"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:SaqRJWdWvJZAiqTGIznxl6wP8f1lMhwbyfQWOGzS"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="BUCKET" value="context.connection_aws_s3_bucket"/>
-    <elementParameter field="TEXT" name="KEY" value="context.destination_file_path+&quot;enriched_customer_&quot;+context.current_file_name+&quot;_&quot;+((String)globalMap.get(&quot;ParseTimeString&quot;))+&quot;.csv&quot;"/>
+    <elementParameter field="TEXT" name="KEY" value="context.destination_file_path+&quot;enriched_sales_&quot;+context.current_file_name+&quot;_&quot;+((String)globalMap.get(&quot;ParseTimeString&quot;))+&quot;.csv&quot;"/>
     <elementParameter field="FILE" name="FILE" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
     <elementParameter field="CHECK" name="ENABLE_SERVER_SIDE_ENCRYPTION" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_KMS" show="false" value="false"/>
@@ -205,9 +177,9 @@
     <elementParameter field="CHECK" name="USE_PREFIX" value="true"/>
     <elementParameter field="LABEL" name="INFO_RANGE" show="false" value="The temporary file name should include template &quot;XXXX&quot;. Template is deprecated. Use Prefix instead."/>
     <elementParameter field="TEXT" name="TEMPLATE" show="false" value="&quot;talend_XXXX&quot;"/>
-    <elementParameter field="TEXT" name="PREFIX" value="&quot;en_customer&quot;"/>
+    <elementParameter field="TEXT" name="PREFIX" value="&quot;en_sales&quot;"/>
     <elementParameter field="TEXT" name="SUFFIX" value="&quot;tmp&quot;"/>
-    <elementParameter field="TEXT" name="LABEL" value="Enriched Customer Temp"/>
+    <elementParameter field="TEXT" name="LABEL" value="Enriched Sales Temp"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tS3Copy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="416">
@@ -215,7 +187,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:LhnD7qzJo9plGnniYrkI4w4M+lNAoSAxP5FxAGeO"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:Jq9JFGIURAAiwNJEzjWEpcZsOosqRf4b1vd8mY7I"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -225,7 +197,7 @@
     <elementParameter field="TEXT" name="FROM_BUCKET" value="context.connection_aws_s3_bucket"/>
     <elementParameter field="TEXT" name="FROM_KEY" value="context.current_s3_folder + context.current_file_name"/>
     <elementParameter field="TEXT" name="TO_BUCKET" value="context.connection_aws_s3_bucket"/>
-    <elementParameter field="TEXT" name="TO_KEY" value="&quot;ERROR/CUSTOMER/&quot;+TalendDate.formatDate(&quot;YYYYMMdd&quot;,TalendDate.getCurrentDate())+&quot;/&quot;+context.current_file_name"/>
+    <elementParameter field="TEXT" name="TO_KEY" value="&quot;ERROR/SALES/&quot;+TalendDate.formatDate(&quot;YYYYMMdd&quot;,TalendDate.getCurrentDate())+&quot;/&quot;+context.current_file_name"/>
     <elementParameter field="CHECK" name="ENABLE_SERVER_SIDE_ENCRYPTION" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_KMS" show="false" value="false"/>
     <elementParameter field="TEXT" name="KMSID" show="false" value="&quot;&quot;"/>
@@ -243,7 +215,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:DtIRdFqBnIMn9+vz4zoFYRUS5HF2p7vQE3Wyc6Sm"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:mIP5W6HJ6dYwNDwAJqeboD+r2rMZcw9gZ8VFbzx/"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -273,7 +245,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="context.connection_aws_access_key"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:eoXnI2ZKEaUjdavjMm/vShNdDZSnTLmXO95EqUv46MPhwMCIXrq5gzk7UgO4RfeX+iV4gvxM9srtmSNXYA=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:DW2GiGWlT3LrXQLszFcqXHIf0/Kup3q9af0kFmaXQdGwuBXxvGiAsNKIzEkGPDJ1laMfZ6Lg0B1j3i5QnA=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="context.connection_aws_role_arn"/>
@@ -285,8 +257,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:LY8UGLuYyErQQzD6ABtSyLKTwZs97mLO6PjVgPdG"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:8YeCMTofg02g2mBuJTZ0KxSO8xvQhZDCFIp2utI3"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:j074WvkLaL1go8DCBPD4JG0aZHfb4HWFPxhCnwmd"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:U1XnyX1NCrXVoUTS1sfm6lPhsApDMQMCqUbS6gov"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -360,11 +332,11 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ORIG_FILE_NAME"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.current_file_name"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ORIG_FILE_FORMAT"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="StringHandling.RIGHT(context.current_file_name,3)"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="StringHandling.RIGHT(context.current_file_name,4)"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LZ_ENRICHED_PATH"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;NULL&quot;"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ERROR_PATH"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+&quot;ERROR/CUSTOMER/&quot;+TalendDate.formatDate(&quot;YYYYMMdd&quot;,TalendDate.getCurrentDate())+&quot;/&quot; + context.current_file_name"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+&quot;ERROR/SALES/&quot;+TalendDate.formatDate(&quot;YYYYMMdd&quot;,TalendDate.getCurrentDate())+&quot;/&quot; + context.current_file_name"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FILE_STATUS"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;ERROR&quot;"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ROWS_PROCESSED"/>
@@ -400,7 +372,7 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="DATA_STREAM_CD"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.DATA_STREAM_CD"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="SOURCE_FILE"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;enriched_customer_&quot;+context.current_file_name+&quot;_&quot;+((String)globalMap.get(&quot;ParseTimeString&quot;))+&quot;.csv&quot;"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;enriched_sales_&quot;+context.current_file_name+&quot;_&quot;+((String)globalMap.get(&quot;ParseTimeString&quot;))+&quot;.csv&quot;"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LZ_FILE_PATH"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+context.current_s3_folder"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ORIG_FILE_NAME"/>
@@ -408,9 +380,9 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ORIG_FILE_FORMAT"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="StringHandling.RIGHT(context.current_file_name,4)"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LZ_ENRICHED_PATH"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+&quot;ENRICHED/CUSTOMER/&quot;+&quot;enriched_customer_&quot;+context.current_file_name+&quot;_&quot;+((String)globalMap.get(&quot;ParseTimeString&quot;))+&quot;.csv&quot;"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+&quot;ENRICHED/SALES/&quot;+&quot;enriched_sales_&quot;+context.current_file_name+&quot;_&quot;+((String)globalMap.get(&quot;ParseTimeString&quot;))+&quot;.csv&quot;"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ARCHIVE_PATH"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+&quot;ARCHIVE/CUSTOMER/&quot;+TalendDate.formatDate(&quot;YYYYMMdd&quot;,TalendDate.getCurrentDate()) +&quot;/&quot; +context.current_file_name"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;s3://&quot;+context.connection_aws_s3_bucket+&quot;/&quot;+&quot;ARCHIVE/SALES/&quot;+TalendDate.formatDate(&quot;YYYYMMdd&quot;,TalendDate.getCurrentDate()) +&quot;/&quot; +context.current_file_name"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FILE_STATUS"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;ENRICHED&quot;"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ROWS_PROCESSED"/>
@@ -466,147 +438,79 @@
     </metadata>
   </node>
   <node componentName="tFileInputJSON" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_2"/>
     <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH"/>
     <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" value="2_1_0"/>
     <elementParameter field="CHECK" name="USEURL" value="false"/>
-    <elementParameter field="TEXT" name="URLPATH" show="false" value="context.JsonFile_FilePath"/>
+    <elementParameter field="TEXT" name="URLPATH" show="false" value="&quot;C:/Users/NadavMalka/Desktop/Sales.json&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.current_file_path"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" show="false" value="&quot;$[*]&quot;"/>
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$[*]&quot;"/>
     <elementParameter field="TABLE" name="MAPPING" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="_id"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_name"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="index"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sale_value"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="guid"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="isActive"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="credit_card_number"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="balance"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="item_id"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="picture"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sale_date"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="eyeColor"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="gender"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="company"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="phone"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="address"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="latitude"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="longitude"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="tags___"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="about"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="transaction_id"/>
       <elementValue elementRef="QUERY" value=""/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_JSONPATH">
-      <elementValue elementRef="SCHEMA_COLUMN" value="_id"/>
-      <elementValue elementRef="QUERY" value="&quot;_id&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="index"/>
-      <elementValue elementRef="QUERY" value="&quot;index&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="guid"/>
-      <elementValue elementRef="QUERY" value="&quot;guid&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="isActive"/>
-      <elementValue elementRef="QUERY" value="&quot;isActive&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="balance"/>
-      <elementValue elementRef="QUERY" value="&quot;balance&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="picture"/>
-      <elementValue elementRef="QUERY" value="&quot;picture&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
-      <elementValue elementRef="QUERY" value="&quot;age&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="eyeColor"/>
-      <elementValue elementRef="QUERY" value="&quot;eyeColor&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
-      <elementValue elementRef="QUERY" value="&quot;name&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="gender"/>
-      <elementValue elementRef="QUERY" value="&quot;gender&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="company"/>
-      <elementValue elementRef="QUERY" value="&quot;company&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
-      <elementValue elementRef="QUERY" value="&quot;email&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="phone"/>
-      <elementValue elementRef="QUERY" value="&quot;phone&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="address"/>
-      <elementValue elementRef="QUERY" value="&quot;address&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="latitude"/>
-      <elementValue elementRef="QUERY" value="&quot;latitude&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="longitude"/>
-      <elementValue elementRef="QUERY" value="&quot;longitude&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="tags___"/>
-      <elementValue elementRef="QUERY" value="&quot;tags[*]&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="about"/>
-      <elementValue elementRef="QUERY" value="&quot;about&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_name"/>
+      <elementValue elementRef="QUERY" value="&quot;customer_name&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sale_value"/>
+      <elementValue elementRef="QUERY" value="&quot;sale_value&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity"/>
+      <elementValue elementRef="QUERY" value="&quot;quantity&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="credit_card_number"/>
+      <elementValue elementRef="QUERY" value="&quot;credit_card_number&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="item_id"/>
+      <elementValue elementRef="QUERY" value="&quot;item_id&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="QUERY" value="&quot;customer_id&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sale_date"/>
+      <elementValue elementRef="QUERY" value="&quot;sale_date&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="transaction_id"/>
+      <elementValue elementRef="QUERY" value="&quot;transaction_id&quot;"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPINGXPATH" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="_id"/>
-      <elementValue elementRef="QUERY" value="&quot;_id&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_name"/>
+      <elementValue elementRef="QUERY" value="&quot;customer_name&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="index"/>
-      <elementValue elementRef="QUERY" value="&quot;index&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sale_value"/>
+      <elementValue elementRef="QUERY" value="&quot;value&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="guid"/>
-      <elementValue elementRef="QUERY" value="&quot;guid&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity"/>
+      <elementValue elementRef="QUERY" value="&quot;quantity&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="isActive"/>
-      <elementValue elementRef="QUERY" value="&quot;isActive&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="credit_card_number"/>
+      <elementValue elementRef="QUERY" value="&quot;credit_card_number&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="balance"/>
-      <elementValue elementRef="QUERY" value="&quot;balance&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="item_id"/>
+      <elementValue elementRef="QUERY" value="&quot;item_id&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="picture"/>
-      <elementValue elementRef="QUERY" value="&quot;picture&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="QUERY" value="&quot;customer_id&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
-      <elementValue elementRef="QUERY" value="&quot;age&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="eyeColor"/>
-      <elementValue elementRef="QUERY" value="&quot;eyeColor&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
-      <elementValue elementRef="QUERY" value="&quot;name&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="gender"/>
-      <elementValue elementRef="QUERY" value="&quot;gender&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="company"/>
-      <elementValue elementRef="QUERY" value="&quot;company&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
-      <elementValue elementRef="QUERY" value="&quot;email&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="phone"/>
-      <elementValue elementRef="QUERY" value="&quot;phone&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="address"/>
-      <elementValue elementRef="QUERY" value="&quot;address&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="latitude"/>
-      <elementValue elementRef="QUERY" value="&quot;latitude&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="longitude"/>
-      <elementValue elementRef="QUERY" value="&quot;longitude&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="tags___"/>
-      <elementValue elementRef="QUERY" value="&quot;tags[*]&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="about"/>
-      <elementValue elementRef="QUERY" value="&quot;about&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sale_date"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="transaction_id"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_uHWUIKxhEeqY9vVsbFoVKQ - Sales_JSON"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="true"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
@@ -614,47 +518,27 @@
     <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
-    <elementParameter field="TEXT" name="LABEL" value="CUSTOMER"/>
+    <elementParameter field="TEXT" name="LABEL" value="SALES"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileInputJSON_1">
-      <column comment="" key="false" length="-1" name="_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="guid" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="isActive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="picture" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="eyeColor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="gender" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="company" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="longitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="tags___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="about" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" label="Sales_JSON" name="tFileInputJSON_2">
+      <column comment="" key="false" length="17" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="transaction_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="false" length="-1" name="_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="guid" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="isActive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="picture" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="eyeColor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="gender" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="company" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="longitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="tags___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="about" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    <metadata connector="REJECT" label="Sales_JSON" name="REJECT">
+      <column comment="" key="false" length="17" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="transaction_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -664,7 +548,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_2Kvh4HrUEeqbNbtdUwnq9Q-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_8RcQwKxgEeqY9vVsbFoVKQ-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -674,74 +558,44 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="Enrich"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="CUSTOMER_ENRICHED">
-      <column comment="" key="false" length="-1" name="_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="guid" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="isActive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="picture" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="eyeColor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="gender" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="company" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="longitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="tags___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="about" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" label="metadata" name="SALES_ENRICHED">
+      <column comment="" key="false" length="17" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="transaction_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="fileName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="LZ_EN_TS" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ODS_INS_TS" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables name="CUSTOMER_ENRICHED" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1._id" name="_id" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.index" name="index" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row1.guid" name="guid" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.isActive" name="isActive" nullable="true" type="id_Boolean"/>
-        <mapperTableEntries expression="row1.balance" name="balance" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.picture" name="picture" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.age" name="age" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row1.eyeColor" name="eyeColor" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.name" name="name" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.gender" name="gender" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.company" name="company" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.email" name="email" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.phone" name="phone" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.address" name="address" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.latitude" name="latitude" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row1.longitude" name="longitude" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row1.tags___" name="tags___" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.about" name="about" nullable="true" type="id_String"/>
+      <outputTables name="SALES_ENRICHED" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.customer_name " name="customer_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.sale_value " name="sale_value" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.quantity " name="quantity" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.credit_card_number " name="credit_card_number" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.item_id " name="item_id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.customer_id " name="customer_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.sale_date " name="sale_date" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.transaction_id " name="transaction_id" nullable="true" type="id_String"/>
         <mapperTableEntries expression="context.current_file_name" name="fileName" nullable="true" type="id_String"/>
         <mapperTableEntries expression="((Date)globalMap.get(&quot;ParseTime&quot;))" name="LZ_EN_TS" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="" name="ODS_INS_TS" nullable="true" type="id_Date"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="_id" nullable="true" type="id_String"/>
-        <mapperTableEntries name="index" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="guid" nullable="true" type="id_String"/>
-        <mapperTableEntries name="isActive" nullable="true" type="id_Boolean"/>
-        <mapperTableEntries name="balance" nullable="true" type="id_String"/>
-        <mapperTableEntries name="picture" nullable="true" type="id_String"/>
-        <mapperTableEntries name="age" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="eyeColor" nullable="true" type="id_String"/>
-        <mapperTableEntries name="name" nullable="true" type="id_String"/>
-        <mapperTableEntries name="gender" nullable="true" type="id_String"/>
-        <mapperTableEntries name="company" nullable="true" type="id_String"/>
-        <mapperTableEntries name="email" nullable="true" type="id_String"/>
-        <mapperTableEntries name="phone" nullable="true" type="id_String"/>
-        <mapperTableEntries name="address" nullable="true" type="id_String"/>
-        <mapperTableEntries name="latitude" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="longitude" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="tags___" nullable="true" type="id_String"/>
-        <mapperTableEntries name="about" nullable="true" type="id_String"/>
+        <mapperTableEntries name="customer_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sale_value" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="quantity" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="credit_card_number" nullable="true" type="id_String"/>
+        <mapperTableEntries name="item_id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="customer_id" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sale_date" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="transaction_id" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -774,27 +628,17 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
-    <elementParameter field="TEXT" name="LABEL" value="CUSTOMERS_ENRICHED"/>
+    <elementParameter field="TEXT" name="LABEL" value="SALES_ENRICHED"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_2">
-      <column comment="" key="false" length="-1" name="_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="guid" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="isActive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="picture" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="eyeColor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="gender" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="company" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="longitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="tags___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="about" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="transaction_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="fileName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="LZ_EN_TS" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ODS_INS_TS" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
@@ -831,11 +675,19 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="FileProperties"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputJSON_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputJSON_1" target="tMap_2">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputJSON_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputJSON_2" target="tMap_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="transaction_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sale_date"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="CUSTOMER_ENRICHED" lineStyle="0" metaname="CUSTOMER_ENRICHED" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tFileOutputDelimited_2">
+  <connection connectorName="FLOW" label="SALES_ENRICHED" lineStyle="0" metaname="SALES_ENRICHED" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tFileOutputDelimited_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
@@ -846,9 +698,33 @@
       <elementValue elementRef="TRACE_COLUMN" value="ODS_INS_TS"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="quantity"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="credit_card_number"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="item_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="customer_name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="customer_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sale_value"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="transaction_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sale_date"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="CUSTOMER_ENRICHED"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="SALES_ENRICHED"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_2" target="tS3Put_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk11"/>
@@ -935,17 +811,17 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_2"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2d7d1ab3-0b8e-4705-96f1-f1b3f5c195a3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PC4A0VE6KMpjGYjd296kuvEtn6bp6ktkl6wpCrE+Z5qU7PLo3BNf2BjirmSTQWpk/2GcmYUl62UT
-V0xbgOKWhw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cbe3a9cc-8cd6-49ed-9e0d-ace223d1ff86"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tUa2UMHYBUhXDDchXIgPQntDKrDSu4xnZzxktg/rtnABwWhvws2G1adbVNHjYKIBPh6/pFmZAR9W
-wkn/OnLbjQ==</DigestValue></Reference></SignedInfo><SignatureValue>De7hGq9A6twbeDJ5WhU1UZPeSLg8C9kXZeRLLgTLE98xYKe7B82ZoRRe0ladg3QzDSaJTi6VMhDH
-gIm5O6bsj4GMaqIoVijPVB1hNaaTBWSHCVbL5aDjYf2FSjW7PmjL0Gv5HgVCamUo4TsK8+PByge2
-RJd+z8grkcVGHRlz/Jh7YHvjZqc1HcAOcA2H5EcWcS/FKVH7sQHjCxXj+YjxwzVOg+exC3nPozrV
-LIdNv4NJ5tyKU7g3QspX6OpgKSLUmSAt08Cb1+rMEinYmHoNRmJ8kOw5mWTZlp9xOtuVPECmgz3s
-rRVUwk2lRnymHKkri+QtZ013b/xFc+0OtF00DA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_973b5136-c767-4aaf-ac3b-354c0b939075"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fVNgLcghvvVJci8+bOQmy0mZkTPGVtrKtEIXUJ6iFJknwXte28OEsigxsIdAO/VEn3XWXmlAgA35
+X8y0NQzn9A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_16c649d7-3a90-4475-b2ef-d4b385464aff"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Hf2rtBFviVrEZNrpfotWgRsoMXtAPVxb+Km4OgLJbxh+VuSXyuohFAbU2AQnH6hmJhG6x1uGC+1E
+nsqyVM/YKg==</DigestValue></Reference></SignedInfo><SignatureValue>ib4XyA+aNPxVsNOs1MrkXOG1hEbtFOiGlR+Fu+oMTYDiFOFfA2uWMJ/djD3KsPPMCXRsQ4rFDJ1S
+cGUMGR/Y0Y3iJLbPI2SboxRSn8sp91uoaM9I7Bw9x71blJWYPqMfaqOJCtmbvO0zrWeFgAU4kCud
+PcnfTaVLxr3N9EAZU92U9DkpOyFcvJhZTRt4EfRV2RSD/uKQs+otBmYV/VlivWUzbFlbRs3oykWJ
+pxaOmErAMfds+WRllo7pACHfi+yRX5gta0d7fF+0GoOGzZKCNHvMmYmkwf7VvBCLrXuX2+GMzHeS
+3298qs7Mvy36QVdQuDAMu33zGEJQN4AKAVaRlg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -967,4 +843,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cbe3a9cc-8cd6-49ed-9e0d-ace223d1ff86" Target="#_2d7d1ab3-0b8e-4705-96f1-f1b3f5c195a3"><Timestamp>2020-06-12 03:58:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_16c649d7-3a90-4475-b2ef-d4b385464aff" Target="#_973b5136-c767-4aaf-ac3b-354c0b939075"><Timestamp>2020-06-12 04:44:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

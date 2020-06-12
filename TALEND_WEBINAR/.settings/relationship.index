@@ -2103,6 +2103,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_uHWUIKxhEeqY9vVsbFoVKQ - Sales_JSON",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
