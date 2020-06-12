@@ -317,7 +317,7 @@
     <module>jobs/process/Sample/readme_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check1_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
-    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales1_1.0</module>
+    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales_1.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
