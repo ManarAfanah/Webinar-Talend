@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="current_file_key" prompt="current_file_key?" promptNeeded="false" type="id_String" value="&quot;LANDING_ZONE/SALES/&quot;"/>
     <contextParameter comment="" name="connection_aws_access_key" prompt="connection_aws_access_key?" promptNeeded="false" type="id_String" value="&quot;AKIA4O4MSNKQ5SQNXQMF&quot;"/>
-    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:6fCpg2PzDSwxm8QI2sHUf9DWOszsAx8Q/8TUckLw5rsqku0Ypcm8LWZLIhM8uMUYO//exvLex+rXtCByfamKFaQtRd8="/>
+    <contextParameter comment="" name="connection_aws_secret_key" prompt="connection_aws_secret_key?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:aauKBpCygPeFcrYi6k4WClIm36MsEoQpQI/7MQ+NgMrtp/TegINA1Up+TjZ8ouIh0ZjMq+FsQV4iepegK6U17nmA7H4="/>
     <contextParameter comment="" name="connection_aws_role_arn" prompt="connection_aws_role_arn?" promptNeeded="false" type="id_String" value="&quot;arn:aws:iam::856603912865:role/Talend_Webinar&quot;"/>
     <contextParameter comment="" name="connection_aws_role_session_name" prompt="connection_aws_role_session_name?" promptNeeded="false" type="id_String" value="&quot;TalendStudioV7.3&quot;"/>
     <contextParameter comment="" name="connection_aws_s3_bucket" prompt="connection_aws_s3_bucket?" promptNeeded="false" type="id_String" value="&quot;talend-snowflake-webinar&quot;"/>
@@ -55,7 +55,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:l7JC1JK1X6nLK82xdSDUrFrbQT7QLvY9x/TxgC9I"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:N4O7Q48Ls6FswRvHAIW6uMbNQ4MieW7Odmq9Siqf"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -90,7 +90,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7F0b5esIVnu0q97vWRImsqmn+NNugsI4qYzT3t5k"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wty1g8CqZt5oQrSF+jZNnnqSYeXh52dU6GuAOTlO"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -134,7 +134,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:jMKKmM4LcKDpsZYttE859NHkJTlt0Y/xAFxGpJ3j"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:vl4RkgOnwWHAWzrtLRQfG5gI3LWlPkBXV4jJ4ivv"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -146,8 +146,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:XyPrtwdudmvwAJOC+fTFh7ploYlRoBkZjuhDlMhO"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:8IdW/d/Ve6jmR/0SatbB6J/vvOcaoGXQhx3rnZL3"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:RVg9E8Hy0nzrJUh4KWI5JAwzXZFyRaI/tTyx+CEs"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:w+AMEzzsMcUSerzTtmtjsVyMV1mCi4tlUIjg+UmJ"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -187,7 +187,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:TDf4ZT/w2dKKrxdaV3A7sBbHOEZ90dpNU7d8fa4P"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:hSKqP75iRSofI1izbhy/rY9FJvarcQ3+bGNlwYZ0"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -215,7 +215,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:VxZVmf45wWPnjaonzBuIrKcFh/wXJ8p5VhzJbx1w"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:6coXQHFSXhnu+MJOXVK6KA8IwfYRN//+KSw5eotH"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -245,7 +245,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="context.connection_aws_access_key"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:+eo4V+yn4jb6v1Pebc+IqisTmPkbkUDUyAU2rRd9fHn4imA9tU5Kvx/l0BnPjbtMSAOA+Ata5f8WO6aD+A=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:4qqf5P+ljr17i5gidzxw6jpCOso/MNemkSm3V1cSnW2/zJlpQw8cMQPoRWtDnSIWc6BKKz0TqL0Q/VPJCg=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="context.connection_aws_role_arn"/>
@@ -257,8 +257,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:Bnb0NpDcdMm0groWHhIId1rcptEGley2bkhgnBy7"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:BJoqujBugy91fNZUtPy5VuzJ3yPPqlCzcS4TrRD6"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:m9a0wAlu9IhyaljdKjOkzQU92vaNPr/tx1TfuoIo"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:NX4AAubHAOfzN6S7ZXdhEXwvhvq44gbiG3gocGHy"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -511,18 +511,18 @@
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_uHWUIKxhEeqY9vVsbFoVKQ - Sales_JSON"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="true"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
     <elementParameter field="CHECK" name="CHECK_DATE" show="false" value="false"/>
-    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="false"/>
+    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
     <elementParameter field="TEXT" name="LABEL" value="Sales"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Sales_JSON" name="tFileInputJSON_1">
       <column comment="" key="false" length="-1" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -532,7 +532,7 @@
     </metadata>
     <metadata connector="REJECT" label="Sales_JSON" name="REJECT">
       <column comment="" key="false" length="-1" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -560,7 +560,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="SALES_ENRICHED">
       <column comment="" key="false" length="-1" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -576,7 +576,7 @@
       <varTables name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="SALES_ENRICHED" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.customer_name " name="customer_name" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.sale_value " name="sale_value" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.sale_value " name="sale_value" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row1.quantity " name="quantity" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.credit_card_number " name="credit_card_number" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.item_id " name="item_id" nullable="true" type="id_Integer"/>
@@ -589,7 +589,7 @@
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="customer_name" nullable="true" type="id_String"/>
-        <mapperTableEntries name="sale_value" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="sale_value" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="quantity" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="credit_card_number" nullable="true" type="id_String"/>
         <mapperTableEntries name="item_id" nullable="true" type="id_Integer"/>
@@ -632,7 +632,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_2">
       <column comment="" key="false" length="-1" name="customer_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sale_value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="credit_card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="item_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -807,13 +807,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_32c0a452-4bf3-480d-acd6-76f180ec0c27"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>87cmvMNiUXV36i2KNlAVmchM2jkYm81INPdb4zyldcEzqNxo5tMgys5rRsloIUHvecwt4pZKgkj8
-9gnJDT6lmA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6b49bff3-4f40-4e81-885d-683ecb4e9667"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>03aqtHj7uQysTtbgqB18xBysCXEGGR2mAY2cJeWBKfqBj4Mxm2JzQzAFVqu82sMKAHCasWneMShk
-OzGbq2ZhXA==</DigestValue></Reference></SignedInfo><SignatureValue>MxhLmHsFBmEAKx+6KBoTf7GjeNsFUW1IP1opPJgw9k4YdcTkQoNtwaHWnJ8Ao2CPJ5dLvFjRN82v
-HBbyPFIobLv2ZJ3PccYQ3oy8aH1DJ3p9v9ol5iRJjWkCD/R/kbeLYEvsAdAl+9bE9WW7caovNPdy
-ONFgwy8yedg6xN4bcg4jbbKuOq7KBRCJQzEHAZCpqsUdXGwR3XjMeE7bESUmNJGa8IZfDGTkqCsn
-MAMEoHwkjYHRA/+0a3VgFOFrqFQzWU5NKQWvx710ryp4VvCJgKJ+RA/iz/ZnbLfq/6sF9FgGN5gq
-zN6hlU9yuozKwWGvjL7tPdKy7MNReVyczXE4Og==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ea2a85f4-166c-4bb9-a68f-b7c00474adb7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>71sv1/BEiX/H++NB5YwMJosYhx9MDvXskgDqnMq9YjZE90Z/g+bXnP2sp0QBESeC+Qp8SnWcTvbd
+MDgCup2LCA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a83a4d95-9f7b-4a67-9125-b263f0f4b2b3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oYIM+uooeXb8wfoL+Oi2v418JRf/kyWe+0q2+xMPyuykTuWKlyounj4XMktG+9J1v9qYIJRHdAhh
+nCMqkz8/AQ==</DigestValue></Reference></SignedInfo><SignatureValue>BoCPwVI3Uxwl309c5TSgIkiIYp/oKx7odjqtE01op4H2z9NNA1ZZn9EPj/vAAygKSGQE/pcXrQn+
+tngzby1mNk+jL+6GLy/9jTONqiGGoncvYk77LgxCF9FEvKRqadxt1xDdAZjh4YGykPZBQNRVdchY
+8wXjjs5vYCn+EWHZpotDkxRqmVhTawWnyZWK6ogzNv+qwswrpUGnJwGWIUa2BKcjImWFZe+PihYx
+kEumFPqx9QEImD0eX24EWmsv+ada+rlyop7LQbzvYAObJ7zCJ/10g/475lqOaKwwD2BcYuW2HCv7
+8Gp9j4yOYLP3/WjU/MOv9M9x5G2xB1zhZ1dNFQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -835,4 +835,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6b49bff3-4f40-4e81-885d-683ecb4e9667" Target="#_32c0a452-4bf3-480d-acd6-76f180ec0c27"><Timestamp>2020-06-12 06:26:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a83a4d95-9f7b-4a67-9125-b263f0f4b2b3" Target="#_ea2a85f4-166c-4bb9-a68f-b7c00474adb7"><Timestamp>2020-06-12 07:19:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
