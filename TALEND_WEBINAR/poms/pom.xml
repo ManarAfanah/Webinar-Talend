@@ -318,23 +318,6 @@
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/lz_en_master1_0.1</module>
-    <module>jobs/process/Import_test/LZ_EN/lz_en_master_0.1</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_installed_meter_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_mobile_tamper_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_collector_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_daily_electric_int_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_mobile_read_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_daily_electric_reg_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_meter_sync_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_water_marriage_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_a3_lp_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_event_alarm_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_daily_electric_volt_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_daily_hourly_water_consum_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_daily_demand_reset_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_field_activity_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_lp_with_reg_1.0</module>
-    <module>jobs/process/Import_test/LZ_EN/LZ_EN_JOB/lz_en_event_custom_1.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
