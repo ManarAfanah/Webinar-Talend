@@ -13,8 +13,6 @@
     <module>code/beans</module>
     <module>jobs/process/copy_of_getdatafromamazon_0.1</module>
     <module>jobs/process/parseandloadintos3_0.1</module>
-    <module>jobs/process/loadintosnowflake_0.1</module>
-    <module>jobs/process/test_0.1</module>
     <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/Gov_Spending_Analysis/reduceus_spending_file_mr_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_ip_4_0.1</module>
@@ -307,9 +305,6 @@
     <module>jobs/process/Sample/TUTO79/cif_customer_parsing_0.1</module>
     <module>jobs/process/Sample/TUTO79/extract_invalid_values_0.1</module>
     <module>jobs/process/Sample/TUTO82/dedupewithmatchgroup_0.1</module>
-    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customers_bk_1.0</module>
-    <module>jobs/process/Webinar/ADMIN/copy_of_file_log_done_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/job_log_error_orig_0.1</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customer_1.0</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_pk_null_check_0.1</module>
     <module>jobs/process/Webinar/ADMIN/dq_log_done_0.1</module>
@@ -322,8 +317,6 @@
     <module>jobs/process/Sample/readme_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check1_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
-    <module>jobs/process/Webinar/DATA_QUALITY/test_email_0.1</module>
-    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales1_1.0</module>
   </modules>
   <properties>
