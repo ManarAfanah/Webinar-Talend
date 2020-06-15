@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-06-12T02:09:31.663-0400"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-06-14T21:04:11.754-0400">
+  <deletedFolders>process/Import_test</deletedFolders>
+</recyclebin:RecycleBin>
