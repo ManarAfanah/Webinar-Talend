@@ -40,7 +40,6 @@
     <module>jobs/routes/contentbasedrouting_0.1</module>
     <module>jobs/routes/MQ/mqmultireceiver_0.1</module>
     <module>jobs/process/etlsnowflakedemo_0.1</module>
-    <module>jobs/process/eltsnowflakedemo_0.1</module>
     <module>jobs/process/uploadbigfileintos3_0.1</module>
     <module>jobs/process/loadbigfileintosnowflake_0.1</module>
     <module>jobs/process/loadusersintosnowflake_0.1</module>
@@ -318,6 +317,7 @@
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/lz_en_master_0.1</module>
+    <module>jobs/process/Webinar/ODS_STG/eltsnowflakedemo_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
