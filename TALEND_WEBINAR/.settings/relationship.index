@@ -9387,10 +9387,6 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "METERDATAPLATFORM:_dkLAsIm6Eeqfae5q2tvxeA",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
     "id" : "METERDATAPLATFORM:_qsd9EFyeEeqQdIku8RggrQ",
     "version" : "Latest",
     "type" : "job"
@@ -9399,7 +9395,7 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "TALEND_WEBINAR:_jLgI0Kp4EeqgHsgBsmpyjQ",
+    "id" : "_iGIe0JQUEeqH2vUYX94gvQ",
     "version" : "Latest",
     "type" : "job"
   }, {
