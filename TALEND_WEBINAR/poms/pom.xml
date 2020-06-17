@@ -47,7 +47,6 @@
     <module>jobs/process/Webinar/STG_DWH/stg_dwh_master_0.1</module>
     <module>jobs/process/Webinar/STG_DWH/stg_dwh_merge_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_insert_0.1</module>
-    <module>jobs/process/Webinar/ODS_STG/ods_stg_master_0.1</module>
     <module>jobs/process/Webinar/EN_ODS/en_ods_copy_0.1</module>
     <module>jobs/process/Webinar/EN_ODS/en_ods_master_0.1</module>
     <module>jobs/process/Webinar/ADMIN/file_log_done_0.1</module>
