@@ -11,8 +11,6 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
-    <module>jobs/process/copy_of_getdatafromamazon_0.1</module>
-    <module>jobs/process/parseandloadintos3_0.1</module>
     <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/Gov_Spending_Analysis/reduceus_spending_file_mr_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_ip_4_0.1</module>
@@ -40,10 +38,6 @@
     <module>jobs/routes/contentbasedrouting_0.1</module>
     <module>jobs/routes/MQ/mqmultireceiver_0.1</module>
     <module>jobs/process/etlsnowflakedemo_0.1</module>
-    <module>jobs/process/uploadbigfileintos3_0.1</module>
-    <module>jobs/process/loadbigfileintosnowflake_0.1</module>
-    <module>jobs/process/loadusersintosnowflake_0.1</module>
-    <module>jobs/process/loadusersintosnowflakeusingrow_0.1</module>
     <module>jobs/process/Webinar/STG_DWH/stg_dwh_master_0.1</module>
     <module>jobs/process/Webinar/STG_DWH/stg_dwh_merge_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_insert_0.1</module>
@@ -312,13 +306,11 @@
     <module>jobs/process/Sample/getdatafromapi_0.1</module>
     <module>jobs/process/Sample/priortest_0.1</module>
     <module>jobs/process/Sample/readme_0.1</module>
-    <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check1_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/lz_en_master_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_master_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_sales_0.1</module>
-    <module>jobs/process/Webinar/ODS_STG/eltsnowflakedemo_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
