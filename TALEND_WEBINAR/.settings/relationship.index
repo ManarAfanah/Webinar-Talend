@@ -12692,18 +12692,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_c-nIkJRaEeqH2vUYX94gvQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_tN8RYJRvEeqH2vUYX94gvQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_kVd00JRvEeqH2vUYX94gvQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
