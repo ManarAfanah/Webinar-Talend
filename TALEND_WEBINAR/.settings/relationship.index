@@ -7227,10 +7227,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_IXeH4MItEeqOsNW8M_pdyA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -7290,10 +7286,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_IXeH4MItEeqOsNW8M_pdyA - sql_template",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
