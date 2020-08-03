@@ -5571,6 +5571,14 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_5q_PsNWQEeqZyYbUr0Zzwg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_FyyH8NWREeqZyYbUr0Zzwg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_i20pENVIEeqZyYbUr0Zzwg",
     "version" : "Latest",
     "type" : "property"
@@ -5638,6 +5646,14 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_5q_PsNWQEeqZyYbUr0Zzwg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FyyH8NWREeqZyYbUr0Zzwg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_kVd00JRvEeqH2vUYX94gvQ - AGG_SALES",
     "version" : "Latest",
