@@ -14,9 +14,9 @@
   <packaging>pom</packaging>
   <name>TALEND_WEBINAR CRMService-${project.version} (0.1,Services) Kar</name>
   <modules>
-    <module>../../process/CRMService/CRMService/getCRMInformation/crmservice_getcrminformation_0.1</module>
-    <module>../../process/CRMService/CRMService/getCRMStatus/crmservice_getcrmstatus_0.1</module>
-    <module>../../process/CRMService/CRMService/updateCRMStatus/crmservice_updatecrmstatus_0.1</module>
+    <module>../../process/Sample/CRMService/CRMService/getCRMInformation/crmservice_getcrminformation_0.1</module>
+    <module>../../process/Sample/CRMService/CRMService/getCRMStatus/crmservice_getcrmstatus_0.1</module>
+    <module>../../process/Sample/CRMService/CRMService/updateCRMStatus/crmservice_updatecrmstatus_0.1</module>
     <module>pom-control-bundle.xml</module>
     <module>pom-feature.xml</module>
   </modules>

@@ -14,9 +14,9 @@
   <packaging>pom</packaging>
   <name>TALEND_WEBINAR ReservationService-${project.version} (0.1,Services) Kar</name>
   <modules>
-    <module>../../process/ReservationService/ReservationService/getAvailableCars/reservationservice_getavailablecars_0.1</module>
-    <module>../../process/ReservationService/ReservationService/submitCarReservation/reservationservice_submitcarreservation_0.1</module>
-    <module>../../process/ReservationService/ReservationService/getConfirmationOfReservation/reservationservice_getconfirmationofreservation_0.1</module>
+    <module>../../process/Sample/ReservationService/ReservationService/getAvailableCars/reservationservice_getavailablecars_0.1</module>
+    <module>../../process/Sample/ReservationService/ReservationService/getConfirmationOfReservation/reservationservice_getconfirmationofreservation_0.1</module>
+    <module>../../process/Sample/ReservationService/ReservationService/submitCarReservation/reservationservice_submitcarreservation_0.1</module>
     <module>pom-control-bundle.xml</module>
     <module>pom-feature.xml</module>
   </modules>

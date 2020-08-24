@@ -1,0 +1,14 @@
+{
+  "itemId" : "_K9yRMAisEeSb4J7IG_14Rw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_ra_50DX8EeW5dtX7d0ubwQ",
+    "parameterList" : [ {
+      "id" : "_GbAkUZRQEeqH2vUYX94gvQ",
+      "name" : "username_jms"
+    }, {
+      "id" : "_GbAkUpRQEeqH2vUYX94gvQ",
+      "name" : "password_jms"
+    } ]
+  } ]
+}

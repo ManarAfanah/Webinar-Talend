@@ -17,7 +17,7 @@
     <cloud.publisher.skip>false</cloud.publisher.skip>
     <talend.job.name>CRMService</talend.job.name>
     <talend.job.id>_QDAIMA-cEeGrZ8n2806j_A</talend.job.id>
-    <talend.product.version>7.3.1.20200219_1130</talend.product.version>
+    <talend.product.version>7.3.1.20200820_0951-patch</talend.product.version>
     <talend.job.version>0.1</talend.job.version>
     <talend.job.finalName>CRMService-feature-0.1.0</talend.job.finalName>
   </properties>

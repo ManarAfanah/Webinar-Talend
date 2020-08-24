@@ -1,0 +1,20 @@
+{
+  "itemId" : "_bt2dgC2GEeCm6LmhW3o6Xg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_67mk4C2EEeCm6LmhW3o6Xg",
+    "parameterList" : [ {
+      "id" : "_RX2FU5RQEeqH2vUYX94gvQ",
+      "name" : "input_file"
+    }, {
+      "id" : "_RX2FUpRQEeqH2vUYX94gvQ",
+      "name" : "customer_merged"
+    }, {
+      "id" : "_RX2FUZRQEeqH2vUYX94gvQ",
+      "name" : "cleansed_file"
+    }, {
+      "id" : "_RX2FVJRQEeqH2vUYX94gvQ",
+      "name" : "dsc_tag"
+    } ]
+  } ]
+}

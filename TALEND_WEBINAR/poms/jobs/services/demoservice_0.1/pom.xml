@@ -14,7 +14,7 @@
   <packaging>pom</packaging>
   <name>TALEND_WEBINAR DemoService-${project.version} (0.1,Services) Kar</name>
   <modules>
-    <module>../../process/DemoService/DemoServicePortType/DemoServiceOperation/demoserviceporttype_demoserviceoperation_0.1</module>
+    <module>../../process/Sample/DemoService/DemoServicePortType/DemoServiceOperation/demoserviceporttype_demoserviceoperation_0.1</module>
     <module>pom-control-bundle.xml</module>
     <module>pom-feature.xml</module>
   </modules>
