@@ -297,6 +297,7 @@
     <module>jobs/process/email_test_0.1</module>
     <module>jobs/process/etlsnowflakedemo_0.1</module>
     <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
+    <module>jobs/process/mstest_0.1</module>
     <module>jobs/process/test2_0.1</module>
     <module>jobs/process/test_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_code_0.1</module>
