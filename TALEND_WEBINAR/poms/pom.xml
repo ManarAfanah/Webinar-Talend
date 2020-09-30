@@ -294,6 +294,7 @@
     <module>jobs/process/Webinar/copy_of_ods_dwh_master_orchestrator_test_0.1</module>
     <module>jobs/process/Webinar/ods_dwh_master_orchestrator_0.1</module>
     <module>jobs/process/aloha_ct_master_orchestrator_0.1</module>
+    <module>jobs/process/cdc_0.1</module>
     <module>jobs/process/email_test_0.1</module>
     <module>jobs/process/etlsnowflakedemo_0.1</module>
     <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
