@@ -1416,6 +1416,10 @@
     "id" : "_cUhxcJCDEeqjDLCEmlx7SA",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_cUhxcJCDEeqjDLCEmlx7SA - CUSTOMER",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
