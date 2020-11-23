@@ -9,56 +9,9 @@
   <name>TALEND_WEBINAR Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
     <module>code/beans</module>
-    <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
-    <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/Gov_Spending_Analysis/reduceus_spending_file_mr_0.1</module>
-    <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_ip_4_0.1</module>
-    <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_code_0.1</module>
+    <module>code/routines</module>
     <module>jobs/joblets/jcloudlog_0.1</module>
-    <module>jobs/routes/ErrorHandler/routescopeerrorhandler_0.1</module>
-    <module>jobs/routes/MQ/mqmultisender_0.1</module>
-    <module>jobs/routes/serviceproxy_0.1</module>
-    <module>jobs/routes/resttosoap_0.1</module>
-    <module>jobs/services/demoservice_0.1</module>
-    <module>jobs/routes/soaptorest_0.1</module>
-    <module>jobs/routes/JMStoHTTP/receivefromjms_0.1</module>
-    <module>jobs/routes/demorestroute_0.1</module>
-    <module>jobs/services/crmservice_0.1</module>
-    <module>jobs/routes/vmspringdemo_0.1</module>
-    <module>jobs/routes/JMStoHTTP/sendtojms_0.1</module>
-    <module>jobs/routes/simplerecipientlist_0.1</module>
-    <module>jobs/services/reservationservice_0.1</module>
-    <module>jobs/routes/ErrorHandler/contextscopeerrorhandler_0.1</module>
-    <module>jobs/routes/demorestclientroute_0.1</module>
-    <module>jobs/routes/JMStoHTTP/jmstohttp_0.1</module>
-    <module>jobs/routes/demoresourceroute_0.1</module>
-    <module>jobs/routes/simpleloadbalancer_0.1</module>
-    <module>jobs/routes/directsedademo_0.1</module>
-    <module>jobs/routes/contentbasedrouting_0.1</module>
-    <module>jobs/routes/MQ/mqmultireceiver_0.1</module>
-    <module>jobs/process/etlsnowflakedemo_0.1</module>
-    <module>jobs/process/Webinar/STG_DWH/stg_dwh_master_0.1</module>
-    <module>jobs/process/Webinar/STG_DWH/stg_dwh_merge_0.1</module>
-    <module>jobs/process/Webinar/ODS_STG/ods_stg_insert_0.1</module>
-    <module>jobs/process/Webinar/EN_ODS/en_ods_copy_0.1</module>
-    <module>jobs/process/Webinar/EN_ODS/en_ods_master_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/file_log_done_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/file_log_error_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/file_log_update_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/file_log_update_dwh_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/job_log_done_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/job_log_error_0.1</module>
-    <module>jobs/process/Webinar/ADMIN/job_log_start_0.1</module>
-    <module>jobs/process/Webinar/ods_dwh_master_orchestrator_0.1</module>
-    <module>jobs/process/Sample/address_location/tgoogleaddressrow_0.1</module>
-    <module>jobs/process/Sample/address_location/tgooglegeocoder_0.1</module>
-    <module>jobs/process/Sample/address_location/tgooglemaplookup_0.1</module>
-    <module>jobs/process/Sample/data_matching/a_matchcustomers_0.1</module>
-    <module>jobs/process/Sample/data_matching/c_group_per_family_0.1</module>
-    <module>jobs/process/Sample/data_matching/d_group_family_generate_key_0.1</module>
-    <module>jobs/process/Sample/dedupe_jobs/c0_create_duplicates_0.1</module>
-    <module>jobs/process/Sample/dedupe_jobs/c1_merge_exact_duplicates_0.1</module>
     <module>jobs/process/Sample/Examples/getweather_0.1</module>
     <module>jobs/process/Sample/Examples/sayhello_0.1</module>
     <module>jobs/process/Sample/Examples/video_viewers_watch_results_log_filter_0.1</module>
@@ -102,6 +55,35 @@
     <module>jobs/process/Sample/NoSQL_Examples/MongoDB/demo_bigdatamongo_0.1</module>
     <module>jobs/process/Sample/NoSQL_Examples/MongoDB/demo_bigdatamongostaterev_0.1</module>
     <module>jobs/process/Sample/ReservationService/ReservationService/getConfirmationOfReservation/reservationservice_getconfirmationofreservation_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/jd_1_parsename_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/jd_2_standardizetitle_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/jd_3_parseaccountdescription_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/jd_4_consolidateaccounts_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/jd_5_deduplicate_crm_customers_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/jd_6_consolidatecustomers_0.1</module>
+    <module>jobs/process/Sample/TDQ_Examples/js_runall_0.1</module>
+    <module>jobs/process/Sample/TUTO62/Prerequisite/load_customer_data_0.1</module>
+    <module>jobs/process/Sample/TUTO62/census_lookup_0.1</module>
+    <module>jobs/process/Sample/TUTO75/load_partsmaster_data_0.1</module>
+    <module>jobs/process/Sample/TUTO78/correct_claim_dates_0.1</module>
+    <module>jobs/process/Sample/TUTO79/cif_customer_parsing_0.1</module>
+    <module>jobs/process/Sample/TUTO79/extract_invalid_values_0.1</module>
+    <module>jobs/process/Sample/TUTO82/dedupewithmatchgroup_0.1</module>
+    <module>jobs/process/Sample/address_location/tgoogleaddressrow_0.1</module>
+    <module>jobs/process/Sample/address_location/tgooglegeocoder_0.1</module>
+    <module>jobs/process/Sample/address_location/tgooglemaplookup_0.1</module>
+    <module>jobs/process/Sample/beforerunjobs_0.1</module>
+    <module>jobs/process/Sample/data_matching/a_matchcustomers_0.1</module>
+    <module>jobs/process/Sample/data_matching/c_group_per_family_0.1</module>
+    <module>jobs/process/Sample/data_matching/d_group_family_generate_key_0.1</module>
+    <module>jobs/process/Sample/dedupe_jobs/c0_create_duplicates_0.1</module>
+    <module>jobs/process/Sample/dedupe_jobs/c1_merge_exact_duplicates_0.1</module>
+    <module>jobs/process/Sample/demorest_0.1</module>
+    <module>jobs/process/Sample/demorestconsumer_0.1</module>
+    <module>jobs/process/Sample/demoserviceconsumer_0.1</module>
+    <module>jobs/process/Sample/getdatafromapi_0.1</module>
+    <module>jobs/process/Sample/priortest_0.1</module>
+    <module>jobs/process/Sample/readme_0.1</module>
     <module>jobs/process/Sample/standardization_examples/address/a1_parisstreetindexcreation_0.1</module>
     <module>jobs/process/Sample/standardization_examples/address/a2_normalizeaddress_0.1</module>
     <module>jobs/process/Sample/standardization_examples/address/a2_standardizeaddress_0.1</module>
@@ -282,43 +264,61 @@
     <module>jobs/process/Sample/t04_Context/built_incontext_prompt_0.1</module>
     <module>jobs/process/Sample/t04_Context/repositorycontext_0.1</module>
     <module>jobs/process/Sample/t04_Context/tcontextload_and_file_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/jd_1_parsename_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/jd_2_standardizetitle_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/jd_3_parseaccountdescription_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/jd_4_consolidateaccounts_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/jd_5_deduplicate_crm_customers_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/jd_6_consolidatecustomers_0.1</module>
-    <module>jobs/process/Sample/TDQ_Examples/js_runall_0.1</module>
-    <module>jobs/process/Sample/TUTO62/Prerequisite/load_customer_data_0.1</module>
-    <module>jobs/process/Sample/TUTO62/census_lookup_0.1</module>
-    <module>jobs/process/Sample/TUTO75/load_partsmaster_data_0.1</module>
-    <module>jobs/process/Sample/TUTO78/correct_claim_dates_0.1</module>
-    <module>jobs/process/Sample/TUTO79/cif_customer_parsing_0.1</module>
-    <module>jobs/process/Sample/TUTO79/extract_invalid_values_0.1</module>
-    <module>jobs/process/Sample/TUTO82/dedupewithmatchgroup_0.1</module>
-    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customer_1.0</module>
-    <module>jobs/process/Webinar/DATA_QUALITY/dq_pk_null_check_0.1</module>
     <module>jobs/process/Webinar/ADMIN/dq_log_done_0.1</module>
-    <module>jobs/process/Sample/beforerunjobs_0.1</module>
-    <module>jobs/process/Sample/demorest_0.1</module>
-    <module>jobs/process/Sample/demorestconsumer_0.1</module>
-    <module>jobs/process/Sample/demoserviceconsumer_0.1</module>
-    <module>jobs/process/Sample/getdatafromapi_0.1</module>
-    <module>jobs/process/Sample/priortest_0.1</module>
-    <module>jobs/process/Sample/readme_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/file_log_done_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/file_log_error_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/file_log_update_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/file_log_update_dwh_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/job_log_done_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/job_log_error_0.1</module>
+    <module>jobs/process/Webinar/ADMIN/job_log_start_0.1</module>
     <module>jobs/process/Webinar/DATA_QUALITY/dq_duplication_check_0.1</module>
+    <module>jobs/process/Webinar/DATA_QUALITY/dq_pk_null_check_0.1</module>
+    <module>jobs/process/Webinar/EN_ODS/en_ods_copy_0.1</module>
+    <module>jobs/process/Webinar/EN_ODS/en_ods_master_0.1</module>
+    <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_customer_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/LZ_EN_JOB/lz_en_sales_1.0</module>
     <module>jobs/process/Webinar/LZ_EN/lz_en_master_0.1</module>
+    <module>jobs/process/Webinar/ODS_STG/ods_stg_insert_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_master_0.1</module>
     <module>jobs/process/Webinar/ODS_STG/ods_stg_sales_0.1</module>
+    <module>jobs/process/Webinar/STG_DWH/stg_dwh_master_0.1</module>
+    <module>jobs/process/Webinar/STG_DWH/stg_dwh_merge_0.1</module>
+    <module>jobs/process/Webinar/ods_dwh_master_orchestrator_0.1</module>
+    <module>jobs/process/etlsnowflakedemo_0.1</module>
+    <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
     <module>jobs/process/test_0.1</module>
+    <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_code_0.1</module>
+    <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_ip_4_0.1</module>
+    <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/Gov_Spending_Analysis/reduceus_spending_file_mr_0.1</module>
+    <module>jobs/routes/ErrorHandler/contextscopeerrorhandler_0.1</module>
+    <module>jobs/routes/ErrorHandler/routescopeerrorhandler_0.1</module>
+    <module>jobs/routes/JMStoHTTP/jmstohttp_0.1</module>
+    <module>jobs/routes/JMStoHTTP/receivefromjms_0.1</module>
+    <module>jobs/routes/JMStoHTTP/sendtojms_0.1</module>
+    <module>jobs/routes/MQ/mqmultireceiver_0.1</module>
+    <module>jobs/routes/MQ/mqmultisender_0.1</module>
+    <module>jobs/routes/contentbasedrouting_0.1</module>
+    <module>jobs/routes/demoresourceroute_0.1</module>
+    <module>jobs/routes/demorestclientroute_0.1</module>
+    <module>jobs/routes/demorestroute_0.1</module>
+    <module>jobs/routes/directsedademo_0.1</module>
+    <module>jobs/routes/resttosoap_0.1</module>
+    <module>jobs/routes/serviceproxy_0.1</module>
+    <module>jobs/routes/simpleloadbalancer_0.1</module>
+    <module>jobs/routes/simplerecipientlist_0.1</module>
+    <module>jobs/routes/soaptorest_0.1</module>
+    <module>jobs/routes/vmspringdemo_0.1</module>
+    <module>jobs/services/crmservice_0.1</module>
+    <module>jobs/services/demoservice_0.1</module>
+    <module>jobs/services/reservationservice_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>TALEND_WEBINAR</talend.project.name>
     <encoding>UTF-8</encoding>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
@@ -426,7 +426,7 @@
       <plugin>
         <groupId>org.talend.ci</groupId>
         <artifactId>builder-maven-plugin</artifactId>
-        <version>7.3.1</version>
+        <version>7.3.3</version>
         <executions>
           <execution>
             <phase>generate-sources</phase>
