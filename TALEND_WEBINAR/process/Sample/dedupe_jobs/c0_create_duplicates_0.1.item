@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="input_file" prompt="input_file?" promptNeeded="false" repositoryContextId="_67mk4C2EEeCm6LmhW3o6Xg" type="id_String" value="&quot;/tmp/customers.xls&quot;"/>
   </context>
@@ -131,7 +132,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value="Amburgey|Gregory|J.|3800 Breck Court|Victoria|BC|4854&#10;Amper|Gilbert|V.|5300 Turrin Dr.|Redwood City|CA|91124&#10;Abravaya|William|J.|6406 Pepperidge Way|Oregon City|OR|88933&#10;Alarid|Kyle||8002 Morgan Territory Road|Bremerton|WA|17977&#10;Alcon|Thoma|J.|4151 Olivera|San Diego|CA|92596&#10;Amic|Sheila||258 Bluejay Dr.|Newton|BC|59706&#10;Ames|Raphael||9662 Red Leaf|Webmaster|BC|7158&#10;Ames|Raphael||9662 Red Leaf|Webminster||71583&#10;Ames|Raphael||9662 Red Lef|Webmaster|BC|7158&#10;Adams|Paul|R.|4106 Gainsborough Drive||CA|&#10;Amador|Marjorie|J.|1889 Carmel Dr|Grossmont|CA|12804&#10;Afana|Bonnie||9089 San Jose Ave|Newport Beach|CA|65676&#10;Ames|Raphaël||9662 Red Lef|Webmaster|BC|7158&#10;Aguilar|John||4817 Julpum Loop|Acapulco|Guerrero|95449&#10;Adkins|Young Cha||3805 Halfmoon Court|Novato|CA|68631&#10;Allison|Danette|L.|2038 Encino Drive|Bremerton|WA|77813&#10;Abdulla|Larry||Wren Avenue 6968|Lemon Grove|CA|96003&#10;Aichinger|Garrison|S.|3670 Altura Drive|Ballard|WA|13629&#10;Amidon|Greg|R.|8033 Chaucer Drive|Sooke|BC|80339&#10;Aleksic|Else||989 Caravelle Ct|Downey|CA|33597&#10;Alexander|Marie||1162 Park Glenn|Walla Walla|WA|65721&#10;Abrams|Oral||2444 North Ranchford|Vancouver|BC|55547&#10;Allen|Lea||8585 Morengo Ct.|Lynnwood|WA|56621&#10;Alm|Lejeana|L.|3886 Valencia Place|Ballard|WA|68171&#10;Alexander|Linda|E|4277 La Cruz|Port Hammond|BC|29567&#10;Alcon|Ken|S.|5 Curletto Dr.|Mill Valley|CA|40542&#10;Acevedo|Stephen||6510 Hacienda Drive|Imperial Beach|CA|17174&#10;Abbruzzese|Muffy||2873 Tice|Hidalgo|Zacatecas|49259&#10;Agee|Betsy||4576 Almond Street|Seattle|WA|97078&#10;Aiello|Juanita||8130 Potomac Drive|Santa Anita|DF|94723&#10;Ahlin|Patricia||4462 Greendell Pl|Burnaby|BC|42102&#10;Alvarado|Mary|A.|1349 Stephine Way|San Carlos|CA|95935&#10;Adams|Kenneth||8386 Candelero Place||WA|&#10;Alexander|Jeremy||4628 Mountain View Place|Newport Beach|CA|92928&#10;Ahlberg|Catherine||824 El Campo Ct|Beverly Hills|CA|48438&#10;Alexander|Bob||3212 Yellowood Lane|Spokane|WA|88995&#10;Anderson|Kasandra|L.|7444 Cherokee Drive|Daly City|CA|93327&#10;Adams|Barbara||9637 Kenneth Ct||OR|&#10;Albo|Helen|L.|6431 Stanford St|Orizaba|Veracruz|98498&#10;Anderson|Rosalie||4041 Jennifer Way|Lincoln Acres|CA|51971&#10;Adams|Alma|J.|6541 Bonita Ave||BC|&#10;Abahamdeh|Catherine||9532 Clayton Rd|Lincoln Acres|CA|23373&#10;Alumbaugh|Brian|S.|561 Lewis Way|Sooke|BC|73329&#10;Anaya|Tom|L.|2540 Waterview Place|Chula Vista|CA|62842&#10;Alexander|Maxine|M.|6286 Ronda Ct|Torrance|CA|37136&#10;Albrecht|Nicole||4634 Hilltop Rd|Torrance|CA|10732&#10;Allen|John||1710 View Dr|Mexico City|Mexico|83728&#10;Aguilar|Roland||856 Summit View Dr|Burbank|CA|92084&#10;Addington|Chaz|C.|7710 Medina Drive|La Cruz|Sinaloa|23932&#10;Ahlin|Adriane|B.|1931 Eagle Way|Imperial Beach|CA|94519&#10;Agee|Sharilynn||9152 St. Patricia|Chula Vista|CA|92556&#10;Almond|Larisa|J.|629 Redrock Drive|Altadena|CA|90694&#10;Adler|Karen||3271 Black Walnut|Newton|BC|62874&#10;Allacher|Janice|M.|8957 Royal Ann Lane|Ballard|WA|35380&#10;Allen|Mary|A.|5637 Teak Court|Lakewood|CA|16333&#10;Amaro|Cathy||551 Thors Bay Road|Mill Valley|CA|39411&#10;Alcaraz|Barbara||9765 Marie Drive|Renton|WA|61833&#10;Ahmadzai|Jauire||9551 Jones Rd|Portland|OR|66463&#10;Allen|Margaret|B.|1301 Burwood Way|San Francisco|CA|93943&#10;Alcon|Samantha|A.|4603 Brock Lane|Beverly Hills|CA|68565&#10;Abramson|Cynthia|G.|1104 O St.|Coronado|CA|64335&#10;Adkinson|Peter||7512 Sanford Street|Issaquah|WA|64145&#10;Adams|Shawn|R.|5630 Indianhead Circle||CA|&#10;Ammann|Marianne|J.|5375 Blue Ridge|W. Linn|OR|72032&#10;Aigaki|Mary||2562 Meadowbrook Drive|Milwaukie|OR|54322&#10;Adalat|Robert||33 Rotherham Dr|Kirkland|WA|42283&#10;|Sheri|A.|2433 Bailey Road|Tlaxiaco|Oaxaca|15057&#10;|Kim|H.|6064 Brodia Court|San Andres|DF|12942&#10;|Brenda|C.|7560 Trees Drive||BC|$$&#10;Allen|Libby||5458 Encino Drive|N. Vancouver|BC|92652&#10;Aldred|Kristine|G.|636 Vine Hill Way|Coronado|CA|85666&#10;Amole|Sarah|E.|1143 Julpum Loop|Oak Bay|BC|92511&#10;Ace|Dorothy|S.|8624 Pepperidge Way|Torrance|CA|90961&#10;Adair|Sam|W.|7469 Paraiso Ct.|Oregon City|OR|34247&#10;Allenbach|Michelle|K.|3451 Meier Road|Haney|BC|43122&#10;Abbott|Eric|C.|1961 Marfargoa Drive|Edmonds|WA|10561&#10;Adams|Michelle|M.|9558 Orchard View Ave.||CA|&#10;Albright|Anna|L.|5927 Mt. Hood Circle|Fremont|CA|66160&#10;Allen|Phyllis||7254 Buchanan Road|San Gabriel|CA|79447&#10;Amaro|Catherine||51 Thor Road|Mill Valley|CA|39411&#10;Adams|Francis|L.|4217 Almond Avenue||CA|&#10;Alpuerto|Oscar||3968 Bonifacio|Spokane|WA|95091&#10;Alexander|J. Phillip||3368 Rainier Dr.|Richmond|BC|69713&#10;Alcorn|Paul||4822 Center Street|Fremont|CA|18956&#10;Adina|Ronald|H.|3795 Tabora Drive|Woodland Hills|CA|51001&#10;Adams|Margaret|A.|8452 Dewing Avenue||CA|&#10;Alameda|Lili|P.|6668 Mazatlan|Mexico City|Mexico|49504&#10;Altamirano|Sandra|L.|8757 Keith Court|Seattle|WA|62136&#10;Adams|Carla|A.|6835 Lynwood Drive||CA|&#10;Allison|Cecil|C.|4519 Sequoia Drive|Shawnee|BC|47196&#10;Amland|Maxwell|A.|9819 Sunsine Drive|Chula Vista|CA|10717&#10;Albury|Z . T.  Milton||1315 Union St|Shawnee|BC|24720&#10;Alvarado|Selena||6441 Via Santa Fe|Puyallup|WA|71022&#10;Abel|Catherine||3588 Vancouver Way|San Francisco|CA|64952&#10;Alvaro|Emilio|C.|9061 Isabel|Spokane|WA|93349&#10;Alering|Robert|O.|1451 Victory Lane|Salem|OR|92232&#10;Allen|Marvin|L.|7350 Pinon|Santa Cruz|CA|40236&#10;Agcaoili|Samuel|D.|6963 Grand View Avenue|Bremerton|WA|74743&#10;Aguilar|James|E.|5461 Sunview Terrace|Lebanon|OR|67990&#10;Abo|Parker|S.|893 Thornwood Drive|Long Beach|CA|26971&#10;Allen|Jim|E.|6488 Dublin Blvd.|Palo Alto|CA|78129&#10;Amyotte|Carol|J.|6467 Buena Vista|San Jose|CA|62472&#10;Abston|Donald|R.|8950 Glenwood Dr.|Concord|CA|86348&#10;Alumbaugh|Caroline||4469 Dellwood Court|Lemon Grove|CA|56203&#10;Alering|Bob||1451 Victoria Lane|Salem|OR|92232"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="Amburgey|Gregory|J.|3800 Breck Court|Victoria|BC|4854&#xA;Amper|Gilbert|V.|5300 Turrin Dr.|Redwood City|CA|91124&#xA;Abravaya|William|J.|6406 Pepperidge Way|Oregon City|OR|88933&#xA;Alarid|Kyle||8002 Morgan Territory Road|Bremerton|WA|17977&#xA;Alcon|Thoma|J.|4151 Olivera|San Diego|CA|92596&#xA;Amic|Sheila||258 Bluejay Dr.|Newton|BC|59706&#xA;Ames|Raphael||9662 Red Leaf|Webmaster|BC|7158&#xA;Ames|Raphael||9662 Red Leaf|Webminster||71583&#xA;Ames|Raphael||9662 Red Lef|Webmaster|BC|7158&#xA;Adams|Paul|R.|4106 Gainsborough Drive||CA|&#xA;Amador|Marjorie|J.|1889 Carmel Dr|Grossmont|CA|12804&#xA;Afana|Bonnie||9089 San Jose Ave|Newport Beach|CA|65676&#xA;Ames|Raphaël||9662 Red Lef|Webmaster|BC|7158&#xA;Aguilar|John||4817 Julpum Loop|Acapulco|Guerrero|95449&#xA;Adkins|Young Cha||3805 Halfmoon Court|Novato|CA|68631&#xA;Allison|Danette|L.|2038 Encino Drive|Bremerton|WA|77813&#xA;Abdulla|Larry||Wren Avenue 6968|Lemon Grove|CA|96003&#xA;Aichinger|Garrison|S.|3670 Altura Drive|Ballard|WA|13629&#xA;Amidon|Greg|R.|8033 Chaucer Drive|Sooke|BC|80339&#xA;Aleksic|Else||989 Caravelle Ct|Downey|CA|33597&#xA;Alexander|Marie||1162 Park Glenn|Walla Walla|WA|65721&#xA;Abrams|Oral||2444 North Ranchford|Vancouver|BC|55547&#xA;Allen|Lea||8585 Morengo Ct.|Lynnwood|WA|56621&#xA;Alm|Lejeana|L.|3886 Valencia Place|Ballard|WA|68171&#xA;Alexander|Linda|E|4277 La Cruz|Port Hammond|BC|29567&#xA;Alcon|Ken|S.|5 Curletto Dr.|Mill Valley|CA|40542&#xA;Acevedo|Stephen||6510 Hacienda Drive|Imperial Beach|CA|17174&#xA;Abbruzzese|Muffy||2873 Tice|Hidalgo|Zacatecas|49259&#xA;Agee|Betsy||4576 Almond Street|Seattle|WA|97078&#xA;Aiello|Juanita||8130 Potomac Drive|Santa Anita|DF|94723&#xA;Ahlin|Patricia||4462 Greendell Pl|Burnaby|BC|42102&#xA;Alvarado|Mary|A.|1349 Stephine Way|San Carlos|CA|95935&#xA;Adams|Kenneth||8386 Candelero Place||WA|&#xA;Alexander|Jeremy||4628 Mountain View Place|Newport Beach|CA|92928&#xA;Ahlberg|Catherine||824 El Campo Ct|Beverly Hills|CA|48438&#xA;Alexander|Bob||3212 Yellowood Lane|Spokane|WA|88995&#xA;Anderson|Kasandra|L.|7444 Cherokee Drive|Daly City|CA|93327&#xA;Adams|Barbara||9637 Kenneth Ct||OR|&#xA;Albo|Helen|L.|6431 Stanford St|Orizaba|Veracruz|98498&#xA;Anderson|Rosalie||4041 Jennifer Way|Lincoln Acres|CA|51971&#xA;Adams|Alma|J.|6541 Bonita Ave||BC|&#xA;Abahamdeh|Catherine||9532 Clayton Rd|Lincoln Acres|CA|23373&#xA;Alumbaugh|Brian|S.|561 Lewis Way|Sooke|BC|73329&#xA;Anaya|Tom|L.|2540 Waterview Place|Chula Vista|CA|62842&#xA;Alexander|Maxine|M.|6286 Ronda Ct|Torrance|CA|37136&#xA;Albrecht|Nicole||4634 Hilltop Rd|Torrance|CA|10732&#xA;Allen|John||1710 View Dr|Mexico City|Mexico|83728&#xA;Aguilar|Roland||856 Summit View Dr|Burbank|CA|92084&#xA;Addington|Chaz|C.|7710 Medina Drive|La Cruz|Sinaloa|23932&#xA;Ahlin|Adriane|B.|1931 Eagle Way|Imperial Beach|CA|94519&#xA;Agee|Sharilynn||9152 St. Patricia|Chula Vista|CA|92556&#xA;Almond|Larisa|J.|629 Redrock Drive|Altadena|CA|90694&#xA;Adler|Karen||3271 Black Walnut|Newton|BC|62874&#xA;Allacher|Janice|M.|8957 Royal Ann Lane|Ballard|WA|35380&#xA;Allen|Mary|A.|5637 Teak Court|Lakewood|CA|16333&#xA;Amaro|Cathy||551 Thors Bay Road|Mill Valley|CA|39411&#xA;Alcaraz|Barbara||9765 Marie Drive|Renton|WA|61833&#xA;Ahmadzai|Jauire||9551 Jones Rd|Portland|OR|66463&#xA;Allen|Margaret|B.|1301 Burwood Way|San Francisco|CA|93943&#xA;Alcon|Samantha|A.|4603 Brock Lane|Beverly Hills|CA|68565&#xA;Abramson|Cynthia|G.|1104 O St.|Coronado|CA|64335&#xA;Adkinson|Peter||7512 Sanford Street|Issaquah|WA|64145&#xA;Adams|Shawn|R.|5630 Indianhead Circle||CA|&#xA;Ammann|Marianne|J.|5375 Blue Ridge|W. Linn|OR|72032&#xA;Aigaki|Mary||2562 Meadowbrook Drive|Milwaukie|OR|54322&#xA;Adalat|Robert||33 Rotherham Dr|Kirkland|WA|42283&#xA;|Sheri|A.|2433 Bailey Road|Tlaxiaco|Oaxaca|15057&#xA;|Kim|H.|6064 Brodia Court|San Andres|DF|12942&#xA;|Brenda|C.|7560 Trees Drive||BC|$$&#xA;Allen|Libby||5458 Encino Drive|N. Vancouver|BC|92652&#xA;Aldred|Kristine|G.|636 Vine Hill Way|Coronado|CA|85666&#xA;Amole|Sarah|E.|1143 Julpum Loop|Oak Bay|BC|92511&#xA;Ace|Dorothy|S.|8624 Pepperidge Way|Torrance|CA|90961&#xA;Adair|Sam|W.|7469 Paraiso Ct.|Oregon City|OR|34247&#xA;Allenbach|Michelle|K.|3451 Meier Road|Haney|BC|43122&#xA;Abbott|Eric|C.|1961 Marfargoa Drive|Edmonds|WA|10561&#xA;Adams|Michelle|M.|9558 Orchard View Ave.||CA|&#xA;Albright|Anna|L.|5927 Mt. Hood Circle|Fremont|CA|66160&#xA;Allen|Phyllis||7254 Buchanan Road|San Gabriel|CA|79447&#xA;Amaro|Catherine||51 Thor Road|Mill Valley|CA|39411&#xA;Adams|Francis|L.|4217 Almond Avenue||CA|&#xA;Alpuerto|Oscar||3968 Bonifacio|Spokane|WA|95091&#xA;Alexander|J. Phillip||3368 Rainier Dr.|Richmond|BC|69713&#xA;Alcorn|Paul||4822 Center Street|Fremont|CA|18956&#xA;Adina|Ronald|H.|3795 Tabora Drive|Woodland Hills|CA|51001&#xA;Adams|Margaret|A.|8452 Dewing Avenue||CA|&#xA;Alameda|Lili|P.|6668 Mazatlan|Mexico City|Mexico|49504&#xA;Altamirano|Sandra|L.|8757 Keith Court|Seattle|WA|62136&#xA;Adams|Carla|A.|6835 Lynwood Drive||CA|&#xA;Allison|Cecil|C.|4519 Sequoia Drive|Shawnee|BC|47196&#xA;Amland|Maxwell|A.|9819 Sunsine Drive|Chula Vista|CA|10717&#xA;Albury|Z . T.  Milton||1315 Union St|Shawnee|BC|24720&#xA;Alvarado|Selena||6441 Via Santa Fe|Puyallup|WA|71022&#xA;Abel|Catherine||3588 Vancouver Way|San Francisco|CA|64952&#xA;Alvaro|Emilio|C.|9061 Isabel|Spokane|WA|93349&#xA;Alering|Robert|O.|1451 Victory Lane|Salem|OR|92232&#xA;Allen|Marvin|L.|7350 Pinon|Santa Cruz|CA|40236&#xA;Agcaoili|Samuel|D.|6963 Grand View Avenue|Bremerton|WA|74743&#xA;Aguilar|James|E.|5461 Sunview Terrace|Lebanon|OR|67990&#xA;Abo|Parker|S.|893 Thornwood Drive|Long Beach|CA|26971&#xA;Allen|Jim|E.|6488 Dublin Blvd.|Palo Alto|CA|78129&#xA;Amyotte|Carol|J.|6467 Buena Vista|San Jose|CA|62472&#xA;Abston|Donald|R.|8950 Glenwood Dr.|Concord|CA|86348&#xA;Alumbaugh|Caroline||4469 Dellwood Court|Lemon Grove|CA|56203&#xA;Alering|Bob||1451 Victoria Lane|Salem|OR|92232"/>
     <elementParameter field="TEXT" name="LABEL" value="incoming_customers"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -220,7 +221,7 @@
       <column comment="" key="false" length="30" name="postal_code" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
     </metadata>
   </node>
-  <node binaryData="" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224" stringData="">
+  <node binaryData="" stringData="" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -245,25 +246,25 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables name="out1" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="null" name="account_num" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.lname " name="lname" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.fname " name="fname" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.mi " name="mi" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.address1 " name="address1" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.city " name="city" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.state_province " name="state_province" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.postal_code " name="postal_code" nullable="true" type="id_String"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries name="account_num" expression="null" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lname" expression="row2.lname " type="id_String" nullable="true"/>
+        <mapperTableEntries name="fname" expression="row2.fname " type="id_String" nullable="true"/>
+        <mapperTableEntries name="mi" expression="row2.mi " type="id_String" nullable="true"/>
+        <mapperTableEntries name="address1" expression="row2.address1 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="city" expression="row2.city " type="id_String" nullable="true"/>
+        <mapperTableEntries name="state_province" expression="row2.state_province " type="id_String" nullable="true"/>
+        <mapperTableEntries name="postal_code" expression="row2.postal_code " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="lname" nullable="true" type="id_String"/>
-        <mapperTableEntries name="fname" nullable="true" type="id_String"/>
-        <mapperTableEntries name="mi" nullable="true" type="id_String"/>
-        <mapperTableEntries name="address1" nullable="true" type="id_String"/>
-        <mapperTableEntries name="city" nullable="true" type="id_String"/>
-        <mapperTableEntries name="state_province" nullable="true" type="id_String"/>
-        <mapperTableEntries name="postal_code" nullable="true" type="id_String"/>
+      <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="lname" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fname" type="id_String" nullable="true"/>
+        <mapperTableEntries name="mi" type="id_String" nullable="true"/>
+        <mapperTableEntries name="address1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="city" type="id_String" nullable="true"/>
+        <mapperTableEntries name="state_province" type="id_String" nullable="true"/>
+        <mapperTableEntries name="postal_code" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -292,7 +293,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value="10389564000|Amburgey|Gregory|3800 Breck Court|Victoria|BC|48549&#10;10512167811|Amper|Gilbert|5300 Turrin Dr.|Redwood City|CA|91124&#10;11425427800|Abravaya|William|6406 Pepperidge Way|Oregon City|OR|88933&#10;11978338360|Alarid|Kyle|8002 Morgan Territory Road|Bremerton|WA|17977&#10;12716900700|Amic|Sheila|258 Bluejay Dr.|Newton|BC|59706&#10;12912208437|Ames|Ralph|9662 Red Leaf|Westminster|BC|71583&#10;13758354187|Amador|Marjorie|1889 Carmel Dr|Grossmont|CA|12804&#10;13814911200|Afana|Bonnie|9089 San Jose Ave|Newport Beach|CA|65676&#10;14044819500|Adkins|Young Cha|3805 Halfmoon Court|Novato|CA|68631&#10;14398822784|Abdulla|Larry|6968 Wren Ave.|Lemon Grove|CA|96003&#10;14496465921|Aichinger|Garrison|3670 Altura Drive|Ballard|WA|13629&#10;14914799332|Amidon|Greg|8033 Chaucer Drive|Sooke|BC|80339&#10;15072169900|Aleksic|Else|989 Caravelle Ct|Downey|CA|33597&#10;15127675533|Abrams|Oral|2444 North Ranchford|Vancouver|BC|55547&#10;15730984807|Alm|Lejeana|3886 Valencia Place|Ballard|WA|68171&#10;16227247100|Acevedo|Stephen|6510 Hacienda Drive|Imperial Beach|CA|17174&#10;16647104024|Abbruzzese|Muffy|2873 Tice|Hidalgo|Zacatecas|49259&#10;17693653700|Aiello|Juanita|8130 Potomac Drive|Santa Anita|DF|94723&#10;21071193200|Ahlberg|Catherine|824 El Campo Ct|Beverly Hills|CA|48438&#10;21892383694|Albo|Helen|6431 Stanford St|Orizaba|Veracruz|98498&#10;22073475718|Abahamdeh|Catherine|9532 Clayton Rd|Lincoln Acres|CA|23373&#10;22165400385|Anaya|Tom|2540 Waterview Place|Chula Vista|CA|62842&#10;22639480800|Albrecht|Nicole|4634 Hilltop Rd|Torrance|CA|10732&#10;25087656378|Addington|Chaz|7710 Medina Drive|La Cruz|Sinaloa|23932&#10;26233962774|Almond|Larisa|629 Redrock Drive|Altadena|CA|90694&#10;26773456931|Adler|Karen|3271 Black Walnut|Newton|BC|62874&#10;26850017900|Allacher|Janice|8957 Royal Ann Lane|Ballard|WA|35380&#10;27192117600|Amaro|Kathy|551 Thors Bay Road|Mill Valley|CA|39411&#10;27306401100|Alcaraz|Barbara|9765 Marie Drive|Renton|WA|61833&#10;27397826900|Ahmadzai|Jauire|9551 Jones Rd|Portland|OR|66463&#10;27564644217|Abramson|Cynthia|1104 O St.|Coronado|CA|64335&#10;27620418100|Adkinson|Peter|7512 Sanford Street|Issaquah|WA|64145&#10;28415768146|Ammann|Marianne|5375 Blue Ridge|W. Linn|OR|72032&#10;28528555000|Aigaki|Mary|2562 Meadowbrook Drive|Milwaukie|OR|54322&#10;28802387100|Adalat|Robert|33 Rotherham Dr|Kirkland|WA|42283&#10;89288474917|Aldred|Kristine|636 Vine Hill Way|Coronado|CA|85666&#10;89532577395|Amole|Sarah|1143 Julpum Loop|Oak Bay|BC|92511&#10;89972035884|Ace|Dorothy|8624 Pepperidge Way|Torrance|CA|90961&#10;90168706178|Adair|Sam|7469 Paraiso Ct.|Oregon City|OR|34247&#10;90451266169|Allenbach|Michelle|3451 Meier Road|Haney|BC|43122&#10;90720983743|Abbott|Eric|1961 Marfargoa Drive|Edmonds|WA|10561&#10;91044484972|Albright|Anna|5927 Mt. Hood Circle|Fremont|CA|66160&#10;91839717000|Alpuerto|Oscar|3968 Bonifacio|Spokane|WA|95091&#10;92005987200|Alcorn|Paul|4822 Center Street|Fremont|CA|18956&#10;92180470228|Adina|Ronald|3795 Tabora Drive|Woodland Hills|CA|51001&#10;92646418200|Alameda|Lili|6668 Mazatlan|Mexico City|Mexico|49504&#10;92973899841|Altamirano|Sandra|8757 Keith Court|Seattle|WA|62136&#10;93968881368|Amland|Maxwell|9819 Sunsine Drive|Chula Vista|CA|10717&#10;93980382680|Albury|Z . T.  Milton|1315 Union St|Shawnee|BC|24720&#10;95311235785|Abel|Catherine|3588 Vancouver Way|San Francisco|CA|64952&#10;95599685907|Alvaro|Emilio|9061 Isabel|Spokane|WA|93349&#10;96027305126|Ahlering|Robert|1451 Victory Lane|Salem|OR|92232&#10;96894774436|Agcaoili|Samuel|6963 Grand View Avenue|Bremerton|WA|74743&#10;98007789254|Abo|Parker|893 Thornwood Drive|Long Beach|CA|26971&#10;99243944287|Amyotte|Carol|6467 Buena Vista|San Jose|CA|62472&#10;99440378546|Abston|Donald|8950 Glenwood Dr.|Concord|CA|86348"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="10389564000|Amburgey|Gregory|3800 Breck Court|Victoria|BC|48549&#xA;10512167811|Amper|Gilbert|5300 Turrin Dr.|Redwood City|CA|91124&#xA;11425427800|Abravaya|William|6406 Pepperidge Way|Oregon City|OR|88933&#xA;11978338360|Alarid|Kyle|8002 Morgan Territory Road|Bremerton|WA|17977&#xA;12716900700|Amic|Sheila|258 Bluejay Dr.|Newton|BC|59706&#xA;12912208437|Ames|Ralph|9662 Red Leaf|Westminster|BC|71583&#xA;13758354187|Amador|Marjorie|1889 Carmel Dr|Grossmont|CA|12804&#xA;13814911200|Afana|Bonnie|9089 San Jose Ave|Newport Beach|CA|65676&#xA;14044819500|Adkins|Young Cha|3805 Halfmoon Court|Novato|CA|68631&#xA;14398822784|Abdulla|Larry|6968 Wren Ave.|Lemon Grove|CA|96003&#xA;14496465921|Aichinger|Garrison|3670 Altura Drive|Ballard|WA|13629&#xA;14914799332|Amidon|Greg|8033 Chaucer Drive|Sooke|BC|80339&#xA;15072169900|Aleksic|Else|989 Caravelle Ct|Downey|CA|33597&#xA;15127675533|Abrams|Oral|2444 North Ranchford|Vancouver|BC|55547&#xA;15730984807|Alm|Lejeana|3886 Valencia Place|Ballard|WA|68171&#xA;16227247100|Acevedo|Stephen|6510 Hacienda Drive|Imperial Beach|CA|17174&#xA;16647104024|Abbruzzese|Muffy|2873 Tice|Hidalgo|Zacatecas|49259&#xA;17693653700|Aiello|Juanita|8130 Potomac Drive|Santa Anita|DF|94723&#xA;21071193200|Ahlberg|Catherine|824 El Campo Ct|Beverly Hills|CA|48438&#xA;21892383694|Albo|Helen|6431 Stanford St|Orizaba|Veracruz|98498&#xA;22073475718|Abahamdeh|Catherine|9532 Clayton Rd|Lincoln Acres|CA|23373&#xA;22165400385|Anaya|Tom|2540 Waterview Place|Chula Vista|CA|62842&#xA;22639480800|Albrecht|Nicole|4634 Hilltop Rd|Torrance|CA|10732&#xA;25087656378|Addington|Chaz|7710 Medina Drive|La Cruz|Sinaloa|23932&#xA;26233962774|Almond|Larisa|629 Redrock Drive|Altadena|CA|90694&#xA;26773456931|Adler|Karen|3271 Black Walnut|Newton|BC|62874&#xA;26850017900|Allacher|Janice|8957 Royal Ann Lane|Ballard|WA|35380&#xA;27192117600|Amaro|Kathy|551 Thors Bay Road|Mill Valley|CA|39411&#xA;27306401100|Alcaraz|Barbara|9765 Marie Drive|Renton|WA|61833&#xA;27397826900|Ahmadzai|Jauire|9551 Jones Rd|Portland|OR|66463&#xA;27564644217|Abramson|Cynthia|1104 O St.|Coronado|CA|64335&#xA;27620418100|Adkinson|Peter|7512 Sanford Street|Issaquah|WA|64145&#xA;28415768146|Ammann|Marianne|5375 Blue Ridge|W. Linn|OR|72032&#xA;28528555000|Aigaki|Mary|2562 Meadowbrook Drive|Milwaukie|OR|54322&#xA;28802387100|Adalat|Robert|33 Rotherham Dr|Kirkland|WA|42283&#xA;89288474917|Aldred|Kristine|636 Vine Hill Way|Coronado|CA|85666&#xA;89532577395|Amole|Sarah|1143 Julpum Loop|Oak Bay|BC|92511&#xA;89972035884|Ace|Dorothy|8624 Pepperidge Way|Torrance|CA|90961&#xA;90168706178|Adair|Sam|7469 Paraiso Ct.|Oregon City|OR|34247&#xA;90451266169|Allenbach|Michelle|3451 Meier Road|Haney|BC|43122&#xA;90720983743|Abbott|Eric|1961 Marfargoa Drive|Edmonds|WA|10561&#xA;91044484972|Albright|Anna|5927 Mt. Hood Circle|Fremont|CA|66160&#xA;91839717000|Alpuerto|Oscar|3968 Bonifacio|Spokane|WA|95091&#xA;92005987200|Alcorn|Paul|4822 Center Street|Fremont|CA|18956&#xA;92180470228|Adina|Ronald|3795 Tabora Drive|Woodland Hills|CA|51001&#xA;92646418200|Alameda|Lili|6668 Mazatlan|Mexico City|Mexico|49504&#xA;92973899841|Altamirano|Sandra|8757 Keith Court|Seattle|WA|62136&#xA;93968881368|Amland|Maxwell|9819 Sunsine Drive|Chula Vista|CA|10717&#xA;93980382680|Albury|Z . T.  Milton|1315 Union St|Shawnee|BC|24720&#xA;95311235785|Abel|Catherine|3588 Vancouver Way|San Francisco|CA|64952&#xA;95599685907|Alvaro|Emilio|9061 Isabel|Spokane|WA|93349&#xA;96027305126|Ahlering|Robert|1451 Victory Lane|Salem|OR|92232&#xA;96894774436|Agcaoili|Samuel|6963 Grand View Avenue|Bremerton|WA|74743&#xA;98007789254|Abo|Parker|893 Thornwood Drive|Long Beach|CA|26971&#xA;99243944287|Amyotte|Carol|6467 Buena Vista|San Jose|CA|62472&#xA;99440378546|Abston|Donald|8950 Glenwood Dr.|Concord|CA|86348"/>
     <elementParameter field="TEXT" name="LABEL" value="reference_data"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -307,7 +308,7 @@
       <column comment="" key="false" length="30" name="postal_code" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
     </metadata>
   </node>
-  <node binaryData="" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="128" stringData="">
+  <node binaryData="" stringData="" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -332,25 +333,25 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables name="out2" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.account_num " name="account_num" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.lname " name="lname" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.fname " name="fname" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="null" name="mi" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.address1 " name="address1" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.city " name="city" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.state_province " name="state_province" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.postal_code " name="postal_code" nullable="true" type="id_String"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out2">
+        <mapperTableEntries name="account_num" expression="row1.account_num " type="id_String" nullable="true"/>
+        <mapperTableEntries name="lname" expression="row1.lname " type="id_String" nullable="true"/>
+        <mapperTableEntries name="fname" expression="row1.fname " type="id_String" nullable="true"/>
+        <mapperTableEntries name="mi" expression="null" type="id_String" nullable="true"/>
+        <mapperTableEntries name="address1" expression="row1.address1 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="city" expression="row1.city " type="id_String" nullable="true"/>
+        <mapperTableEntries name="state_province" expression="row1.state_province " type="id_String" nullable="true"/>
+        <mapperTableEntries name="postal_code" expression="row1.postal_code " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="account_num" nullable="true" type="id_String"/>
-        <mapperTableEntries name="lname" nullable="true" type="id_String"/>
-        <mapperTableEntries name="fname" nullable="true" type="id_String"/>
-        <mapperTableEntries name="address1" nullable="true" type="id_String"/>
-        <mapperTableEntries name="city" nullable="true" type="id_String"/>
-        <mapperTableEntries name="state_province" nullable="true" type="id_String"/>
-        <mapperTableEntries name="postal_code" nullable="true" type="id_String"/>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="account_num" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lname" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fname" type="id_String" nullable="true"/>
+        <mapperTableEntries name="address1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="city" type="id_String" nullable="true"/>
+        <mapperTableEntries name="state_province" type="id_String" nullable="true"/>
+        <mapperTableEntries name="postal_code" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -394,7 +395,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tFileOutputExcel_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -436,7 +437,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="10" mergeOrder="1" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tUnite_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -481,7 +482,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tMap_2">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -523,7 +524,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="out2" lineStyle="10" mergeOrder="2" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tUnite_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -568,7 +569,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <note opaque="true" posX="96" posY="-128" sizeHeight="64" sizeWidth="513" text="Create a file with duplicated data">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
@@ -590,32 +591,4 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_88b8a23e-cd08-4c8f-925a-cf01dbb899e5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jr2DLHUZ+LZcgcSbD5OxFTL7UF9lObcp8sB1Z4KakUREV4+ubyjfB0L5pI6kG9IX/7JRviQFTi0W
-b8MuYwOlnQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3404d950-96c5-4b3c-a823-1d21a31848f7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6Nq5+Qom3JcTZRxFDKOVrgHfjGXfu6pMxWBh+vvn3Ry4BQ3LnHO6R4Gh0nqObUzqVYeNnSWbyd3h
-QNUp6kWnzw==</DigestValue></Reference></SignedInfo><SignatureValue>ToUsrf6VT9duks307atre8tFrcE0Q3Dg3tRICX/OpNVG5vYS2iPl9vYrzhyvOq6ISd/ip/fyLoPs
-QKkrTetKUz+0q1xoSoVnK+9Q0TBvM958XLn1+pnP+Xp7w++04fk8Aklu98/5gc1MBL1RoZxIF3u/
-DkE/HpDQxY1BepFKXQAYj0UmuInTlQV0L2w57uJBBroJ+o5t5O1YXxoe/dBFzV9PBfA+wfQurYbg
-71CfM4MXZ4LZOSKa2t0dlSxV8xY2Km2KNXWPM4Gl8rUlvUztoZwfwX13f/9QhmVoRIzBAaJQFRdb
-+SKFyNZapi/C33thculWzhIG4Lee+L6aUsmOEQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3404d950-96c5-4b3c-a823-1d21a31848f7" Target="#_88b8a23e-cd08-4c8f-925a-cf01dbb899e5"><Timestamp>2020-06-04 15:40:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+</talendfile:ProcessType>

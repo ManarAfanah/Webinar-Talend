@@ -1,0 +1,48 @@
+{
+  "itemId" : "_aiigQBTPEeOZ86d6jRrZ2g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_dizbyJRPEeqH2vUYX94gvQ",
+      "name" : "jobtracker_host"
+    }, {
+      "id" : "_dizbyZRPEeqH2vUYX94gvQ",
+      "name" : "jobtracker_port"
+    }, {
+      "id" : "_dizbwZRPEeqH2vUYX94gvQ",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_dizbwpRPEeqH2vUYX94gvQ",
+      "name" : "namenode_port"
+    }, {
+      "id" : "_dizbw5RPEeqH2vUYX94gvQ",
+      "name" : "user"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_2PvWcA9FEeOlWM5IeMqgUw",
+    "parameterList" : [ {
+      "id" : "_di0C15RPEeqH2vUYX94gvQ",
+      "name" : "HDFS_LOCATION_TARGET"
+    }, {
+      "id" : "_di0C0ZRPEeqH2vUYX94gvQ",
+      "name" : "KEY_LOGS_DIRECTORY"
+    }, {
+      "id" : "_di0C0pRPEeqH2vUYX94gvQ",
+      "name" : "MYSQL_DBNAME_TO_MIGRATE"
+    }, {
+      "id" : "_di0C05RPEeqH2vUYX94gvQ",
+      "name" : "MYSQL_HOST_or_IP"
+    }, {
+      "id" : "_di0C1JRPEeqH2vUYX94gvQ",
+      "name" : "MYSQL_PORT"
+    }, {
+      "id" : "_di0C1ZRPEeqH2vUYX94gvQ",
+      "name" : "MYSQL_PWD"
+    }, {
+      "id" : "_di0C1pRPEeqH2vUYX94gvQ",
+      "name" : "MYSQL_USERNAME"
+    } ]
+  } ]
+}

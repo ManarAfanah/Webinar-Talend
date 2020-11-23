@@ -1,0 +1,29 @@
+{
+  "itemId" : "_2_YuQODXEeGo7rjzx98aQw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_dizbxpRPEeqH2vUYX94gvQ",
+      "name" : "hive_host"
+    }, {
+      "id" : "_dizbx5RPEeqH2vUYX94gvQ",
+      "name" : "hive_port"
+    }, {
+      "id" : "_dizbyJRPEeqH2vUYX94gvQ",
+      "name" : "jobtracker_host"
+    }, {
+      "id" : "_dizbyZRPEeqH2vUYX94gvQ",
+      "name" : "jobtracker_port"
+    }, {
+      "id" : "_dizbwZRPEeqH2vUYX94gvQ",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_dizbwpRPEeqH2vUYX94gvQ",
+      "name" : "namenode_port"
+    }, {
+      "id" : "_dizbw5RPEeqH2vUYX94gvQ",
+      "name" : "user"
+    } ]
+  } ]
+}

@@ -1,31 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendHadoopCluster:HadoopClusterConnection xmlns:TalendHadoopCluster="http://www.talend.org/hadoopcluster" xmlns:xmi="http://www.omg.org/XMI" dfVersion="HDP_3_1_4_12_1" distribution="HORTONWORKS" group="" jobTrackerURI="sandbox:50300" label="HPD_Sandbox" name="HPD_Sandbox" nameNodeURI="hdfs://sandbox:8020" userName="sandbox" xmi:id="_3amGIA_sEeOFLZHF8lFKdw" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendHadoopCluster:HadoopClusterConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHadoopCluster="http://www.talend.org/hadoopcluster" xmi:id="_3amGIA_sEeOFLZHF8lFKdw" name="HPD_Sandbox" label="HPD_Sandbox" distribution="HORTONWORKS" dfVersion="HDP_3_1_4_12_1" nameNodeURI="hdfs://sandbox:8020" jobTrackerURI="sandbox:50300" userName="sandbox" group="">
   <connectionList>_n-QYUBAKEeOOetIfLozI9A</connectionList>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4b1a2c26-3fb6-431b-805c-7d893fa34d24"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7Fcbdzd6gB9GTq1Cz9nrt+IkouGuhOplWdsi1n5HYGT7hx/aw4Qst5+a/P3Y6OhyOtGniVHHuXYS
-L5TylwDXjw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_33a252ca-8931-4c6c-9dcc-40cde6a774e5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mPG9mcdkiV/ffmV0iQFTw3OoXdy0X76RMi4Pu7IInbUj5y73v8LtFxBHJ7v/t1y7Tc/luPE4li9Z
-arpMslitXA==</DigestValue></Reference></SignedInfo><SignatureValue>OK2nyrGC9sQVmBUUgHZCJLRxlODYDtoyaMI9aCQoziIfRukHC5Fm+H1GKQeeXq5igpEn6cuq1Lv+
-pC5H2dAIIS1AtGigfxmiidlLGyNNqIflKWbf6B9S+2al3ChGNsWmqJ2WmyhBb36kw4Ko2A508qFx
-yQTOT8uta2myA1PmoD1S1dgmNFzcoVt+g820zVZPsCXBjxKS+LbzpEiXnd3m18vbFOJ3vUo8ONFi
-PgZQJh85vpWwlD10YN8Q9hxPDseS6W7sUQAPztSqZ1VFTKVbYGFDbolhuHxzaGOlnQQqcnPZI0f3
-5S79A+qQckxgcolWC3fpu7xMqZ6tZIrkrb3Lyw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_33a252ca-8931-4c6c-9dcc-40cde6a774e5" Target="#_4b1a2c26-3fb6-431b-805c-7d893fa34d24"><Timestamp>2020-05-12 12:52:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendHadoopCluster:HadoopClusterConnection>
+</TalendHadoopCluster:HadoopClusterConnection>

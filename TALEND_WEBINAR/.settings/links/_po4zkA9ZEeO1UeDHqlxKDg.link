@@ -1,0 +1,44 @@
+{
+  "itemId" : "_po4zkA9ZEeO1UeDHqlxKDg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_dizbxpRPEeqH2vUYX94gvQ",
+      "name" : "hive_host"
+    }, {
+      "id" : "_dizbx5RPEeqH2vUYX94gvQ",
+      "name" : "hive_port"
+    }, {
+      "id" : "_dizbyJRPEeqH2vUYX94gvQ",
+      "name" : "jobtracker_host"
+    }, {
+      "id" : "_dizbyZRPEeqH2vUYX94gvQ",
+      "name" : "jobtracker_port"
+    }, {
+      "id" : "_dizbypRPEeqH2vUYX94gvQ",
+      "name" : "mysql_host"
+    }, {
+      "id" : "_dizbzZRPEeqH2vUYX94gvQ",
+      "name" : "mysql_passwd"
+    }, {
+      "id" : "_dizbzJRPEeqH2vUYX94gvQ",
+      "name" : "mysql_user"
+    }, {
+      "id" : "_dizbwZRPEeqH2vUYX94gvQ",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_dizbwpRPEeqH2vUYX94gvQ",
+      "name" : "namenode_port"
+    }, {
+      "id" : "_dizbxJRPEeqH2vUYX94gvQ",
+      "name" : "templeton_host"
+    }, {
+      "id" : "_dizbxZRPEeqH2vUYX94gvQ",
+      "name" : "templeton_port"
+    }, {
+      "id" : "_dizbw5RPEeqH2vUYX94gvQ",
+      "name" : "user"
+    } ]
+  } ]
+}

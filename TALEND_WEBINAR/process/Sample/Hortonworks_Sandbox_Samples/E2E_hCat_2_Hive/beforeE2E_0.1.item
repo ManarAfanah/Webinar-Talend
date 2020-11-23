@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test"/>
+    <contextParameter comment="" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test" internalId="_OSAcAC0-EeuYvbvomQgHdg"/>
     <contextParameter comment="" name="namenode_host" prompt="namenode_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
     <contextParameter comment="" name="namenode_port" prompt="namenode_port?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="8020"/>
     <contextParameter comment="" name="templeton_host" prompt="templeton_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
@@ -268,7 +269,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <note opaque="true" posX="192" posY="0" sizeHeight="97" sizeWidth="353" text="This is a required one time pre job that needs to be&#13;&#10;run before running any end 2 end jobs.&#13;&#10;1. Drops the HDFS directory used during test&#13;&#10;2. Creates the required schemas for data">
+  <note opaque="true" posX="192" posY="0" sizeHeight="97" sizeWidth="353" text="This is a required one time pre job that needs to be&#xD;&#xA;run before running any end 2 end jobs.&#xD;&#xA;1. Drops the HDFS directory used during test&#xD;&#xA;2. Creates the required schemas for data">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -298,32 +299,4 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4e6f8cf9-3c48-4043-b7b7-b4c5c8248430"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>I+3Xs+M8pDOPT5pP4OiC+gEwp6DxV79F5UMiIVPn2k3u1xKu6A3IdZ9eCKaMVSrUBIIYmfYG5z3D
-G3QfTUldeQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cff4e4e0-8b9e-447e-b2d9-0ea2665267fc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0d+wwXQnwuPPoLVyrFqRGQb0RY01BmeOZJi8ubXJC1w3/omwvYJiDpSdF6s4PJhkdGcfKpHyjpe/
-n/aRNqZgoQ==</DigestValue></Reference></SignedInfo><SignatureValue>fQ7KG/N9bI8kjh5n6bX1uqZqtcE0mIcuHX1EFGS8p5Hn7/ly1/n5efxbdxsdGG7s+H8N/0I/RZVd
-H64aa02u0C1UI/vUb3JxMdBGHSa0NBfYv/7Jg6b2fOOpoOb473Y5M6RdOGvzC4ryfmUzPwQ2xZWH
-VJeY9mcQPjhty3uAMa31sPc1fr/ylXe+pnT1u/NkK9llxvBvE3wQWVW6+jvE1sGHe9fdYbiV3OFe
-ISm5A/CN1ox1EaTmxQwzD7kPnr+CLefxPTkkDe1orLSH1mw6XIideQJ2KXS57baeKHPBqFf2OrRo
-sdjsi8Nm3UMYjY81qK8Z/X9uU4sj0ncfw5YcOw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cff4e4e0-8b9e-447e-b2d9-0ea2665267fc" Target="#_4e6f8cf9-3c48-4043-b7b7-b4c5c8248430"><Timestamp>2020-06-04 15:40:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+</talendfile:ProcessType>
