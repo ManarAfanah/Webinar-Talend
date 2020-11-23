@@ -12,7 +12,6 @@
     <module>code/beans</module>
     <module>code/routines</module>
     <module>jobs/joblets/jcloudlog_0.1</module>
-    <module>jobs/process/SRC_ODS/LZ_EN/Aloha/lz_en_aloha_enrich_0.1</module>
     <module>jobs/process/Sample/CRMService/CRMService/getCRMInformation/crmservice_getcrminformation_0.1</module>
     <module>jobs/process/Sample/CRMService/CRMService/getCRMStatus/crmservice_getcrmstatus_0.1</module>
     <module>jobs/process/Sample/CRMService/CRMService/updateCRMStatus/crmservice_updatecrmstatus_0.1</module>
@@ -298,9 +297,6 @@
     <module>jobs/process/email_test_0.1</module>
     <module>jobs/process/etlsnowflakedemo_0.1</module>
     <module>jobs/process/loadintosnowflakemultiplefiles_0.1</module>
-    <module>jobs/process/mstest_0.1</module>
-    <module>jobs/process/test2_0.1</module>
-    <module>jobs/process/test_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_code_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/ApacheWebLog/mr_count_ip_4_0.1</module>
     <module>jobs/process_mr/Hortonworks_Sandbox_Sample/Advanced_Examples/Gov_Spending_Analysis/reduceus_spending_file_mr_0.1</module>

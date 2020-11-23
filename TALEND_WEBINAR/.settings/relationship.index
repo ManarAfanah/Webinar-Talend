@@ -1510,17 +1510,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_GHzekOfNEeqeYavx7gOS7g",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_HGSIwOe8EeqeYavx7gOS7g",
-    "version" : "Latest",
-    "type" : "property"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_GIA8AIazEeCBdve_fObWGQ",
     "version" : "0.1",
     "type" : "job"
@@ -1775,45 +1764,6 @@
     "id" : "GetRandomPhoneNum",
     "version" : "Latest",
     "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_Iev1ANU7EeqZyYbUr0Zzwg",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_9O5wcNWSEeqZyYbUr0Zzwg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_CI0swNWTEeqZyYbUr0Zzwg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_i20pENVIEeqZyYbUr0Zzwg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_kVd00JRvEeqH2vUYX94gvQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_9O5wcNWSEeqZyYbUr0Zzwg - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_CI0swNWTEeqZyYbUr0Zzwg - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_kVd00JRvEeqH2vUYX94gvQ - AGG_SALES",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_kVd00JRvEeqH2vUYX94gvQ - DETAILED_SALES",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -2775,29 +2725,6 @@
     "id" : "MDM",
     "version" : "Latest",
     "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_UHQmwLSuEeq0KNRJmJWq0A",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_1qaLQLCmEeqw5I9O71Q7wg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_EFprYKdoEeqO75fsPY1-ag",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_gh6MEKwHEeqg0MTA23R4VQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "BI_TALEND:_6-4cMLAPEeqmRZmOdEY9uw",
-    "version" : "Latest",
-    "type" : "job"
   } ]
 }, {
   "baseItem" : {
