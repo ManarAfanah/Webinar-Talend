@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="local_files" prompt="local_files?" promptNeeded="false" type="id_Directory" value="C:/Talend/BigData/" internalId="_MQ7C8OZOEequcq5eGJWwZg"/>
+    <contextParameter comment="" internalId="_PCbzYC0-EeuYvbvomQgHdg" name="local_files" prompt="local_files?" promptNeeded="false" type="id_Directory" value="C:/Talend/BigData/"/>
     <contextParameter comment="" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
     <contextParameter comment="" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="9083"/>
     <contextParameter comment="" name="jobtracker_host" prompt="jobtracker_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
@@ -161,7 +160,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE TABLE customers (&#xD;&#xA;  ID INT ,&#xD;&#xA;  First_Name STRING ,&#xD;&#xA;  Last_Name STRING ,&#xD;&#xA;  Address STRING ,&#xD;&#xA;  idState STRING,&#xD;&#xA;  Revenue INT &#xD;&#xA;)  &#xD;&#xA;ROW FORMAT DELIMITED &#xD;&#xA;FIELDS TERMINATED BY ';'&#xD;&#xA;STORED AS TEXTFILE&#xD;&#xA;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE TABLE customers (&#13;&#10;  ID INT ,&#13;&#10;  First_Name STRING ,&#13;&#10;  Last_Name STRING ,&#13;&#10;  Address STRING ,&#13;&#10;  idState STRING,&#13;&#10;  Revenue INT &#13;&#10;)  &#13;&#10;ROW FORMAT DELIMITED &#13;&#10;FIELDS TERMINATED BY ';'&#13;&#10;STORED AS TEXTFILE&#13;&#10;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="STORE_BY_HBASE" value="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;"/>
@@ -263,7 +262,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE TABLE us_states (&#xD;&#xA;  stateId STRING ,&#xD;&#xA;  State STRING&#xD;&#xA;) &#xD;&#xA;ROW FORMAT DELIMITED &#xD;&#xA;FIELDS TERMINATED BY ';'&#xD;&#xA;STORED AS TEXTFILE&#xD;&#xA;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE TABLE us_states (&#13;&#10;  stateId STRING ,&#13;&#10;  State STRING&#13;&#10;) &#13;&#10;ROW FORMAT DELIMITED &#13;&#10;FIELDS TERMINATED BY ';'&#13;&#10;STORED AS TEXTFILE&#13;&#10;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="STORE_BY_HBASE" value="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;"/>
@@ -314,7 +313,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE TABLE CustomerWithState (&#xD;&#xA;  ID INT ,&#xD;&#xA;  First_Name STRING ,&#xD;&#xA;  Last_Name STRING,&#xD;&#xA;  Address STRING ,&#xD;&#xA;  idState STRING,&#xD;&#xA;  Revenue INT, &#xD;&#xA;  State STRING  &#xD;&#xA;) &#xD;&#xA;ROW FORMAT DELIMITED &#xD;&#xA;FIELDS TERMINATED BY ';'&#xD;&#xA;STORED AS TEXTFILE&#xD;&#xA;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE TABLE CustomerWithState (&#13;&#10;  ID INT ,&#13;&#10;  First_Name STRING ,&#13;&#10;  Last_Name STRING,&#13;&#10;  Address STRING ,&#13;&#10;  idState STRING,&#13;&#10;  Revenue INT, &#13;&#10;  State STRING  &#13;&#10;) &#13;&#10;ROW FORMAT DELIMITED &#13;&#10;FIELDS TERMINATED BY ';'&#13;&#10;STORED AS TEXTFILE&#13;&#10;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="STORE_BY_HBASE" value="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;"/>
@@ -779,7 +778,7 @@
     <elementParameter field="CHECK" name="FONT_ITALIC" value="false"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
   </note>
-  <note opaque="true" posX="64" posY="320" sizeHeight="65" sizeWidth="161" text="LOAD DATA&#xD;&#xA; INPATH .....">
+  <note opaque="true" posX="64" posY="320" sizeHeight="65" sizeWidth="161" text="LOAD DATA&#13;&#10; INPATH .....">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -794,7 +793,7 @@
     <elementParameter field="CHECK" name="FONT_ITALIC" value="false"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
   </note>
-  <note opaque="true" posX="64" posY="128" sizeHeight="64" sizeWidth="161" text="Drop tables customer&#xD;&#xA;and us_states">
+  <note opaque="true" posX="64" posY="128" sizeHeight="64" sizeWidth="161" text="Drop tables customer&#13;&#10;and us_states">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -824,7 +823,7 @@
     <elementParameter field="CHECK" name="FONT_ITALIC" value="false"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
   </note>
-  <note opaque="true" posX="0" posY="-32" sizeHeight="129" sizeWidth="257" text="Load customer.csv and us_states.csv&#xD;&#xA;to hdfs for hive to load &#xD;&#xA;&#xD;&#xA;GET FILES FROM DOCUMENTATION &#xD;&#xA;SECTION OF STUDIO">
+  <note opaque="true" posX="0" posY="-32" sizeHeight="129" sizeWidth="257" text="Load customer.csv and us_states.csv&#13;&#10;to hdfs for hive to load &#13;&#10;&#13;&#10;GET FILES FROM DOCUMENTATION &#13;&#10;SECTION OF STUDIO">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -839,7 +838,7 @@
     <elementParameter field="CHECK" name="FONT_ITALIC" value="false"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
   </note>
-  <note opaque="true" posX="544" posY="288" sizeHeight="97" sizeWidth="193" text="Table CustomerWithStates&#xD;&#xA;is populated in Step_2 ELT &#xD;&#xA;job.">
+  <note opaque="true" posX="544" posY="288" sizeHeight="97" sizeWidth="193" text="Table CustomerWithStates&#13;&#10;is populated in Step_2 ELT &#13;&#10;job.">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -909,4 +908,32 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-</talendfile:ProcessType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9e68f33e-3195-4296-8cb6-e5813e0d29ac"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r4ANAaBeoX3PREp4/bZ3Ya9hiSsVr3K41/qBVcM8g+I3jeeo27y0GeCBkfHxzTdrQuLX2qmt+z7R
+1iIdoc3sCg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d07305b0-0987-4c67-a1ee-8d7eddd99c97"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UKOY+Xd03o/ZoLCKSNf0sv+UdebDH0919MJ2HKNi3KaqTiDS12FOSC+5YZFnaR50D0ePXpvVnNd5
+ffrg8oaEuQ==</DigestValue></Reference></SignedInfo><SignatureValue>cgSkplsD5joXjgtYYgTfo+EJ5N74+0eB3qSSUPT6bksdklAzsWVCC9rvOLnAe22hm08/0zYKmGWK
+jF15bMU1I+V0AXIDu6OiSd2YJlsDwMS/8XhBJtSAR3jOpbL0823liqNixIxmz+EF49xpQTw9msEZ
+TddnXtZjFMjobhUqO4+JbhYS7BzD5WasDHKAGdrJdqeqcctPD13FE76g5r5MRupaxa1bxfUebLAk
+nq9g5FxHUiyR84+w/bQP9c9rMo/lTv2/IN1/LDscCduSj56PB8XlaUREUlFo5ulX2PsFeLm/QOy2
+P2Rd8Ux1tzeSK3n4edSjODBXMZrRkqVpR3hS3A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d07305b0-0987-4c67-a1ee-8d7eddd99c97" Target="#_9e68f33e-3195-4296-8cb6-e5813e0d29ac"><Timestamp>2020-11-23 04:08:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

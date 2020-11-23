@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test" internalId="_NAI5YOZOEequcq5eGJWwZg"/>
-    <contextParameter comment="" name="local_lib_dir" prompt="local_lib_dir?" promptNeeded="false" type="id_String" value="../lib" internalId="_NAI5YeZOEequcq5eGJWwZg"/>
-    <contextParameter comment="" name="pigload_uri" prompt="pigload_uri?" promptNeeded="false" type="id_String" value="hdfs://hdp.localdomain:8020/user/hdp/test/lib" internalId="_NAI5YuZOEequcq5eGJWwZg"/>
+    <contextParameter comment="" internalId="_PvjYEC0-EeuYvbvomQgHdg" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test"/>
+    <contextParameter comment="" internalId="_PvjYES0-EeuYvbvomQgHdg" name="local_lib_dir" prompt="local_lib_dir?" promptNeeded="false" type="id_String" value="../lib"/>
+    <contextParameter comment="" internalId="_PvjYEi0-EeuYvbvomQgHdg" name="pigload_uri" prompt="pigload_uri?" promptNeeded="false" type="id_String" value="hdfs://hdp.localdomain:8020/user/hdp/test/lib"/>
     <contextParameter comment="" name="jobtracker_host" prompt="jobtracker_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
     <contextParameter comment="" name="jobtracker_port" prompt="jobtracker_port?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="50300"/>
     <contextParameter comment="" name="namenode_host" prompt="namenode_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
@@ -261,7 +260,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value="101;Adam;Wiley;Sales&#xA;102;Brian;Chester;Service&#xA;103;Julian;Cross;Sales&#xA;104;Dylan;Moore;Marketing&#xA;105;Chris;Murphy;Service&#xA;106;Brian;Collingwood;Service&#xA;107;Michael;Muster;Marketing&#xA;108;Miley;Rhodes;Sales&#xA;109;Chris;Coughlan;Sales&#xA;110;Aaron;King;Marketing&#xA;111;Adam;Young;Service&#xA;112;Tyler;White;Sales&#xA;113;Martin;Reeves;Service&#xA;114;Michael;Morton;Sales&#xA;115;Tim;Rhodes;Marketing"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="101;Adam;Wiley;Sales&#10;102;Brian;Chester;Service&#10;103;Julian;Cross;Sales&#10;104;Dylan;Moore;Marketing&#10;105;Chris;Murphy;Service&#10;106;Brian;Collingwood;Service&#10;107;Michael;Muster;Marketing&#10;108;Miley;Rhodes;Sales&#10;109;Chris;Coughlan;Sales&#10;110;Aaron;King;Marketing&#10;111;Adam;Young;Service&#10;112;Tyler;White;Sales&#10;113;Martin;Reeves;Service&#10;114;Michael;Morton;Sales&#10;115;Tim;Rhodes;Marketing"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
@@ -304,27 +303,27 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="sales" expressionFilter="&quot;Sales&quot;.equals(row1.dept_name)" activateExpressionFilter="true">
-        <mapperTableEntries name="id" expression="row1.id" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="first_name" expression="row1.first_name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="&quot;Sales&quot;.equals(row1.dept_name)" name="sales" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.id" name="id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.first_name" name="first_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.last_name " name="last_name" nullable="true" type="id_String"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="service" expressionFilter="&quot;Service&quot;.equals(row1.dept_name)" activateExpressionFilter="true">
-        <mapperTableEntries name="id" expression="row1.id " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="first_name" expression="row1.first_name  " type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="&quot;Service&quot;.equals(row1.dept_name)" name="service" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.id " name="id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.first_name  " name="first_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.last_name " name="last_name" nullable="true" type="id_String"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="marketing" expressionFilter="&quot;Marketing&quot;.equals(row1.dept_name)" activateExpressionFilter="true">
-        <mapperTableEntries name="id" expression="row1.id " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="first_name" expression="row1.first_name " type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="&quot;Marketing&quot;.equals(row1.dept_name)" name="marketing" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.id " name="id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.first_name " name="first_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.last_name " name="last_name" nullable="true" type="id_String"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="id" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="first_name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="dept_name" type="id_String" nullable="true"/>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="first_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="last_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="dept_name" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -960,7 +959,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tLibraryLoad_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1017,7 +1016,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <connection connectorName="FLOW" label="service" lineStyle="0" metaname="service" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tHCatalogOutput_2">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -1057,7 +1056,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <connection connectorName="FLOW" label="marketing" lineStyle="0" metaname="marketing" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_1" target="tHCatalogOutput_3">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -1097,7 +1096,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tLibraryLoad_2">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1278,7 +1277,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPigLoad_1" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tHCatalogInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1332,7 +1331,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHCatalogOperation_3" offsetLabelX="0" offsetLabelY="0" source="tHCatalogOperation_3" target="tFixedFlowInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1420,7 +1419,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSDelete_1"/>
@@ -1502,4 +1501,32 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-</talendfile:ProcessType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_aad5a3e0-a52c-4376-98ce-a2e9244eb67b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0OocnJLnJaczQNyj7LwH+WfIpXxF5ECihD78wQRHmCqV2jhSR5OZ2AGhvMBNUm/9vYR8+nC1iPjC
+tBZG8k3OYQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_93b678dd-9dbe-459a-845f-40f9cb7126c2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/ceKHE7GJw5K7z8UoGjTf2ZBIEQFUV/cfYLH2B/odsGuJCfddJ1SpZzxlGVZRcbgXZWDENC1qCqm
+Wbos5K1mXg==</DigestValue></Reference></SignedInfo><SignatureValue>RGx2/Ngyi8plcqGXCobbObJIfPWzMTSDJm08Xmz1EHSjv5AmeVwxEzjcMl3vIrp6HIBVo7/JTy1V
+2JbgaxDL0gKFs0+PCYP/exdUNuipt2l5eoDFMOXSGI0HPTMCEVfPKZz++EMkvkRUrWNcSAy+OlIG
+vOfvWavLUjKecV0WC2AW3WI3IHAdwXT6IpHRyTuA0DZ7WqSV0lliLdzdPVnxxq3U3CyPoW/rjS57
+Bkh4d9Bny0N4FMcZkiAIHkoN34aBN8cbxZ7QGwtRYrrQMFfB9f/KeqYuo3saAZIGRKd+U+k3/f4q
+ir8e10fPqotbsOMYAMAaB5Su2AYG9uZp0G5QUA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_93b678dd-9dbe-459a-845f-40f9cb7126c2" Target="#_aad5a3e0-a52c-4376-98ce-a2e9244eb67b"><Timestamp>2020-11-23 04:02:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

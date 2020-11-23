@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="demo">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="demo" xmi:version="2.0">
   <context confirmationNeeded="false" name="demo">
-    <contextParameter comment="This var is just used on t04_Context/repositoryContext" name="sampleInt" prompt="please define an sample int:" promptNeeded="false" type="id_Integer" value="100" internalId="_QNUnEOZOEequcq5eGJWwZg"/>
+    <contextParameter comment="This var is just used on t04_Context/repositoryContext" internalId="_TcZdQC0-EeuYvbvomQgHdg" name="sampleInt" prompt="please define an sample int:" promptNeeded="false" type="id_Integer" value="100"/>
     <contextParameter comment="" name="root" prompt="Set the path of the dir to store the example files folder:" promptNeeded="false" repositoryContextId="_dn7XwGT9Edyrh8knyihGHw" type="id_String" value="C:\TalendDemoFiles\"/>
   </context>
   <parameters>
@@ -133,7 +132,7 @@
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="LABEL" value="     __UNIQUE_NAME__   &lt;br> read the books properties"/>
+    <elementParameter field="TEXT" name="LABEL" value="     __UNIQUE_NAME__   &lt;br&gt; read the books properties"/>
     <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -225,27 +224,27 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="output">
-        <mapperTableEntries name="titre" expression="row1.idtitre" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="sousTitre" expression="row1.sousTitre" type="id_String" nullable="true"/>
-        <mapperTableEntries name="editeur" expression="row1.editeur" type="id_String" nullable="true"/>
-        <mapperTableEntries name="auteur" expression="row1.auteur" type="id_String" nullable="true"/>
-        <mapperTableEntries name="name" expression="row3.name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Paysname" expression="row3.Paysname" type="id_String" nullable="true"/>
-        <mapperTableEntries name="stateName" expression="row3.stateName" type="id_String" nullable="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="output" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.idtitre" name="titre" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.sousTitre" name="sousTitre" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.editeur" name="editeur" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.auteur" name="auteur" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.name" name="name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.Paysname" name="Paysname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.stateName" name="stateName" nullable="true" type="id_String"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="idtitre" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="sousTitre" type="id_String" nullable="true"/>
-        <mapperTableEntries name="auteur" type="id_String" nullable="true"/>
-        <mapperTableEntries name="editeur" type="id_String" nullable="true"/>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="idtitre" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="sousTitre" nullable="true" type="id_String"/>
+        <mapperTableEntries name="auteur" nullable="true" type="id_String"/>
+        <mapperTableEntries name="editeur" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
-        <mapperTableEntries name="Paysname" type="id_String" nullable="true"/>
-        <mapperTableEntries name="stateName" expression="" type="id_String" nullable="true"/>
-        <mapperTableEntries name="name" expression="" type="id_String" nullable="true"/>
-        <mapperTableEntries name="lname" expression="row1.auteur" type="id_String" nullable="true"/>
+      <inputTables innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Paysname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="stateName" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.auteur" name="lname" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -280,7 +279,7 @@
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="LABEL" value="         __UNIQUE_NAME__  &lt;br> read the customer information"/>
+    <elementParameter field="TEXT" name="LABEL" value="         __UNIQUE_NAME__  &lt;br&gt; read the customer information"/>
     <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -385,7 +384,7 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3"/>
   </connection>
-  <note opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="577" text="How to make a lookup on the same file?&#xD;&#xA;In this example, the xml file describe a list of books and the associated customers.">
+  <note opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="577" text="How to make a lookup on the same file?&#13;&#10;In this example, the xml file describe a list of books and the associated customers.">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -405,4 +404,32 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-</talendfile:ProcessType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_31e21c50-e832-4847-b79f-3cfcaa5800b8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YEPsiwTaKqo6VMD88DdBU7+Fty3Akq0GUzd7UTqmnQRbtBHB0eTkbYH5riHgSWvEQJYKUq0VLPEv
+sX/AWyB9Fw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c034bbfe-918e-4ae3-985a-651760bb1a85"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kGb3DztZzfX+wneeR1WK8oc/0ccGZ6CtYEHofGtb1uGQwJCRmTIfjHJNdaR/rfufFRy77MKr6gFG
+F97/s1RG0A==</DigestValue></Reference></SignedInfo><SignatureValue>lOjG1S/RwiUtskQvTEeSchyGNCFe0lsHNXyfir/x3fky17rpj8F38lqf4qRqz5aP/zDFhrr01ebH
+YgL03uhXvu9YJ9BLmVXJxt6KDdhOjBOnE6STM5GpcSukAZxm0EJ3wKlIOaz2/bpo7sl79dIadL+A
+hsqduR2uicbTcDPPe+J3nk9uiiGf5mrXTsuYKaikmoq4VUsucR52avoBjFK78fnhASJ3IH0r7oK/
+bmUo7ktISehZd2xMtKOBPLYqVkFZEecWAliPBkjyb2JlB1Gx0YzOfPTYwvxYZdBN0KMSofz57aJB
+DB8LjA7NSKlvqX4bhZmkKjf2KC7bJGHtcXALRg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c034bbfe-918e-4ae3-985a-651760bb1a85" Target="#_31e21c50-e832-4847-b79f-3cfcaa5800b8"><Timestamp>2020-11-23 04:05:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
