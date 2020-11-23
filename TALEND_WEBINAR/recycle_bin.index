@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/SRC_ODS/LZ_EN/Aloha</deletedFolders>
+  <deletedFolders>process/SRC_ODS/LZ_EN</deletedFolders>
+  <deletedFolders>process/SRC_ODS</deletedFolders>
   <deletedItems id="_Iev1ANU7EeqZyYbUr0Zzwg" path="" type="PROCESS"/>
   <deletedItems id="_MgQiMMItEeqOsNW8M_pdyA" path="" type="PROCESS"/>
   <deletedItems id="_GHzekOfNEeqeYavx7gOS7g" path="" type="PROCESS"/>
+  <deletedItems id="_UHQmwLSuEeq0KNRJmJWq0A" path="SRC_ODS/LZ_EN/Aloha" type="PROCESS"/>
 </recyclebin:RecycleBin>
